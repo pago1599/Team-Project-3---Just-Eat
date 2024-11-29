@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:root {
+  --homepage-hero-color: #ff8000;
+  --homepage-text-color: #242e30;
+  --homepage-text-color-orange: #f36805;
+  --homepage-backround-color: #f5f3f1;
+  --homepage-download-app-backround-color: #c1dade;
+  --homepage-footer-backround-color: #efedea;
+  --font-family: -apple-system, Helvetica, Arial, sans-serif;
+}
