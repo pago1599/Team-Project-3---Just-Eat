@@ -1,0 +1,10 @@
+.bottone-nav-lingua {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.bottone-nav-lingua:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
