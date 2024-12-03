@@ -1,4 +1,4 @@
-Team Project £ - Just Eat
+Team Project 3 - Just Eat
 
 Membri:
 
