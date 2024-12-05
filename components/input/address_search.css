@@ -2,10 +2,6 @@
   display: flex;
 }
 
-.label-container {
-  display: flex;
-}
-
 #input-container {
   display: flex;
   flex-wrap: nowrap;
@@ -13,8 +9,6 @@
   border: 1px solid #242e30;
   border-radius: 130px;
   cursor: text;
-  width: 482.5px;
-  height: 56px;
   padding: 0.2rem 0.2rem;
   color: #242e30;
 }
