@@ -2,6 +2,11 @@
   background-color: white;
   padding: 1rem;
   border-radius: 2rem;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bottone-dimensioni-hamburger-menu:hover {

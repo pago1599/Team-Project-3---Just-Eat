@@ -3,6 +3,11 @@
   border: none;
   background-color: white;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .dimensioni-button-nav:hover {
@@ -11,17 +16,8 @@
 }
 
 .contenitore-button-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 1rem;
   font-weight: 600;
-  padding: 1rem;
-  gap: 0.5rem;
   font-family: var(--font-family);
   color: var(--homepage-text-color);
-}
-
-.dimensione-testo-button-nav {
-  padding-top: 0.15rem;
 }
