@@ -1,0 +1,8 @@
+.dimensione-contenitore-mappa {
+  padding: 1rem;
+  border-radius: 5rem;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
