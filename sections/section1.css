@@ -1,1 +1,170 @@
+.section {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--homepage-backround-color);
+}
 
+.left-side {
+  width: 55%;
+  height: auto;
+  padding-left: 100px;
+  background-color: var(--homepage-backround-color);
+}
+
+.left-side > h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: var(--font-family);
+  color: var(--homepage-text-color);
+  padding-bottom: 30px;
+}
+
+.left-side > h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  font-family: var(--font-family);
+  color: var(--homepage-text-color);
+  padding-bottom: 30px;
+}
+
+.cerca {
+  width: 80%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.cerca input {
+  font-family: var(--font-family);
+  width: 80%;
+  border: none;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.cerca button {
+  min-width: 100px;
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  background-color: var(--homepage-text-color-orange);
+  font-family: var(--font-family);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.cerca input:focus,
+input:focus-visible,
+input:active {
+  border: none;
+  outline: none;
+}
+
+.cerca button:hover {
+  cursor: pointer;
+}
+
+.right-side {
+  background-color: var(--homepage-hero-color);
+  width: 45%;
+  height: auto;
+}
+
+.poligono {
+  width: 7rem;
+  height: 37.7rem;
+  border: transparent;
+  background-color: var(--homepage-hero-color);
+  fill: var(--homepage-backround-color);
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+}
+.image-pizza {
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  fill: var(--homepage-hero-color);
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .section {
+    flex-direction: column;
+  }
+  .left-side {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+  }
+  .left-side > h1 {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 40px;
+    padding: 40px 0px 20px 20px;
+  }
+  .left-side > h2 {
+    padding: 0px 0px 30px 20px;
+  }
+
+  .poligono {
+    width: 100%;
+    height: 3.8vh;
+  }
+  .cerca {
+    width: 90%;
+    font-size: 0.85rem;
+    justify-content: center;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .image-pizza {
+    width: 240;
+    height: 270;
+  }
+
+  @media (min-width: 721px) and (max-width: 1024px) {
+    .section > div:nth-child(1) {
+      margin-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    .left-side > h1 {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 40px;
+    }
+    .section {
+      flex-direction: column;
+    }
+    .left-side {
+      margin-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    .left-side > h1 {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 40px;
+    }
+    .poligono {
+      width: 100%;
+      height: 11.8vh;
+    }
+    .right-side {
+      width: 100%;
+    }
+    .image-pizza {
+      width: 400;
+      height: 460;
+    }
+  }
+}
