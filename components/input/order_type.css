@@ -1,4 +1,3 @@
-/* Contenitore principale */
 .switch-container {
   display: flex;
   background-color: #f4f3f1;
@@ -9,7 +8,6 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Singola opzione */
 .switch-option {
   display: flex;
   align-items: center;
@@ -21,12 +19,17 @@
   font-size: 14px;
   color: var(--homepage-text-color);
   cursor: pointer;
+  width: 7rem;
 }
 
-/* Stile per l'opzione attiva */
 .switch-option.active {
   background-color: #fff;
   color: var(--homepage-text-color);
   font-weight: bold;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#svg-bike,
+#svg-ritiro {
+  fill: var(--homepage-text-color-orange);
 }
