@@ -1,0 +1,92 @@
+.section3 {
+  padding: 0px 0px 0px 20px;
+  background-color: var(--homepage-download-app-backround-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.left-side3 {
+  font-family: var(--font-family);
+  padding-left: 3rem;
+}
+.title {
+  font-weight: 800;
+  font-size: 3rem;
+  color: var(--homepage-text-color);
+  padding-bottom: 1.2rem;
+}
+.paragraph {
+  font-size: 1.5rem;
+  color: var(--homepage-text-color);
+  padding-bottom: 5rem;
+}
+.right-side3 {
+  height: 500px;
+}
+#app-smartphone {
+  padding-top: 2.85rem;
+  padding-right: 3rem;
+}
+
+.links {
+  text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .section3 {
+    justify-content: center;
+  }
+  #app-smartphone {
+    padding-top: 17rem;
+    height: 200px;
+    width: auto;
+    padding-right: 0;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .paragraph {
+    font-size: 1rem;
+  }
+  .left-side3 {
+    padding: 0;
+  }
+  #app-store {
+    height: 30px;
+    width: 90px;
+  }
+  #google-play {
+    height: 30px;
+    width: 90px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1024px) {
+  .section3 {
+    justify-content: center;
+  }
+  #app-smartphone {
+    padding-top: 17rem;
+    height: 200px;
+    width: auto;
+    padding-right: 0;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .paragraph {
+    font-size: 1rem;
+  }
+  .left-side3 {
+    padding: 0;
+  }
+  #app-store {
+    height: 30px;
+    width: 90px;
+  }
+  #google-play {
+    height: 30px;
+    width: 90px;
+  }
+}
