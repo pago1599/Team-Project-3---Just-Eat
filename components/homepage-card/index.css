@@ -2,7 +2,7 @@
     background-color: #f5f3f1;
 }
 
-.section-card-voglia {
+.contenitore-card-voglia {
     box-shadow: 
         0px 0px 1px 0px rgba(0, 0, 0, .12),
         0px 1px 5px 0px rgba(0, 0, 0, .04),
@@ -112,6 +112,8 @@
     height: 80px;
     width: auto;
   }
+
+  /* Terza card css */
 
   .ricerca-ristorante-card {
     position: relative;
