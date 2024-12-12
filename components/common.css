@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,7 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 article,
 aside,
@@ -49,5 +52,10 @@ table {
   --homepage-backround-color: #f5f3f1;
   --homepage-download-app-backround-color: #c1dade;
   --homepage-footer-backround-color: #efedea;
-  --font-family: Verdana, sans-serif;
+  --font-family: "Nunito", serif;
+}
+
+html,
+body {
+  font-family: var(--font-family);
 }
