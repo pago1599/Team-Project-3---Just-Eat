@@ -105,7 +105,7 @@ input:active {
   }
   .left-side1 {
     width: 100%;
-    padding: 0px 0px 30px 40px;
+    padding: 0px 0px 30px 0px;
   }
   .left-side1 > h1 {
     font-size: 2em;
