@@ -2,11 +2,10 @@ Team Project 3 - Just Eat
 
 Membri:
 
-- Fabio
-- Camillo
-- Andrea
-- Michele
-- Antonio
+- Fabio Artudi
+- Camillo Fallù
+- Andrea LoMuto
+- Michele Vitucci
 
 Bacheca:
 
