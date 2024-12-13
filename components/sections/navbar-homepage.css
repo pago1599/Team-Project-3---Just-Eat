@@ -77,16 +77,7 @@
   /* mobile bottono testo*/
   .dimensioni-button-nav {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 2rem;
-    border: none;
     gap: 0.2rem;
-  }
-  /* mobile hamburger menu*/
-  .bottone-dimensioni-hamburger-menu {
-    padding: 0.5rem;
-    border-radius: 2rem;
-    height: 40px;
-    width: 40px;
   }
 
   /* testo bottoni none perchè non servono in modalità mobile*/
@@ -99,11 +90,6 @@
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-  /* contenitore interno - bottoni*/
-  .contenitore-navbar-homepage-interno {
-    gap: 1.2rem;
-  }
-
   /*immagine senza padding left*/
   .immagine-just-eat-homepage {
     padding-left: 0rem;
@@ -112,16 +98,12 @@
   /* mobile bottono testo*/
   .dimensioni-button-nav {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 2rem;
-    border: none;
     gap: 0.2rem;
   }
   /* mobile hamburger menu*/
   .bottone-dimensioni-hamburger-menu {
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 2rem;
-    height: 40px;
-    width: 40px;
   }
 
   /* testo bottoni none perchè non servono in modalità mobile*/
@@ -139,19 +121,19 @@
     padding-left: 0rem;
   }
 
-  /* mobile bottono testo*/
+  /* tablet bottono testo*/
   .dimensioni-button-nav {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    border-radius: 2rem;
-    border: none;
     gap: 0.2rem;
   }
-  /* mobile hamburger menu*/
+  /* tablet lingua menu*/
+  .bottone-nav-lingua {
+    padding: 0.5rem;
+  }
+
+  /* tablet hamburger menu*/
   .bottone-dimensioni-hamburger-menu {
     padding: 0.5rem;
-    border-radius: 2rem;
-    height: 40px;
-    width: 40px;
   }
   .testo-buttone-diventa-partner {
     display: none;
