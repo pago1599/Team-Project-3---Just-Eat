@@ -44,7 +44,7 @@
 /* css lingua bottone*/
 .bottone-nav-lingua {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@
 /* css hamburger bottone*/
 .bottone-dimensioni-hamburger-menu {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
