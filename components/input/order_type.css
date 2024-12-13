@@ -1,15 +1,12 @@
-/* Contenitore principale */
 .switch-container {
   display: flex;
-  background-color: #f4f3f1;
-  border-radius: 30px;
-  padding: 5px;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--homepage-backround-color);
+  border-radius: 30px;
+  padding: 5px;
 }
 
-/* Singola opzione */
 .switch-option {
   display: flex;
   align-items: center;
@@ -17,16 +14,18 @@
   flex: 1;
   padding: 10px 20px;
   border-radius: 30px;
-  font-family: Arial, sans-serif;
   font-size: 14px;
   color: var(--homepage-text-color);
   cursor: pointer;
 }
 
-/* Stile per l'opzione attiva */
 .switch-option.active {
   background-color: #fff;
   color: var(--homepage-text-color);
   font-weight: bold;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#svg-bike,
+#svg-ritiro {
+  fill: var(--homepage-text-color-orange);
 }
