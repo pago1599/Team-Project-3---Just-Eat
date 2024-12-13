@@ -37,6 +37,7 @@
 .contenitore-button-nav {
   font-size: 0.9rem;
   padding-top: 0.1rem;
+  font-weight: 700;
   color: var(--homepage-text-color);
 }
 
