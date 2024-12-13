@@ -55,6 +55,7 @@ table {
   --font-family: "Nunito", serif;
 }
 
+html,
 body {
   font-family: var(--font-family);
 }
