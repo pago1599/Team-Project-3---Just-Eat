@@ -37,13 +37,14 @@
 .contenitore-button-nav {
   font-size: 0.9rem;
   padding-top: 0.1rem;
+  font-weight: 700;
   color: var(--homepage-text-color);
 }
 
 /* css lingua bottone*/
 .bottone-nav-lingua {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
@@ -59,7 +60,7 @@
 /* css hamburger bottone*/
 .bottone-dimensioni-hamburger-menu {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 2rem;
   display: flex;
   justify-content: center;
