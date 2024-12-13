@@ -26,7 +26,7 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
 }
 
 .dimensioni-button-nav:hover {
@@ -36,9 +36,7 @@
 /* bottoni */
 .contenitore-button-nav {
   font-size: 0.9rem;
-  font-weight: bold;
   padding-top: 0.1rem;
-  font-family: var(--font-family);
   color: var(--homepage-text-color);
 }
 
@@ -74,7 +72,7 @@
   transition: all 0.8s;
 }
 
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 576px) {
   /* mobile bottono testo*/
   .dimensioni-button-nav {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -99,7 +97,7 @@
   }
 }
 
-@media (min-width: 721px) and (max-width: 1024px) {
+@media (min-width: 576px) and (max-width: 768px) {
   /* contenitore interno - bottoni*/
   .contenitore-navbar-homepage-interno {
     gap: 1.2rem;
@@ -126,6 +124,34 @@
   }
 
   /* testo bottoni none perchè non servono in modalità mobile*/
+  .testo-buttone-ordine-aziendale,
+  .testo-buttone-diventa-rider,
+  .testo-buttone-diventa-partner,
+  .bottone-nav-lingua {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+
+  /* mobile bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 2rem;
+    border: none;
+    gap: 0.2rem;
+  }
+  /* mobile hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    height: 40px;
+    width: 40px;
+  }
   .testo-buttone-diventa-partner {
     display: none;
   }
