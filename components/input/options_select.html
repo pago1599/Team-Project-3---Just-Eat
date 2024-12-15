@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Options Select input</title>
+    <link rel="stylesheet" href="../common.css" />
+    <link rel="stylesheet" href="./options_select.css" />
+  </head>
+  <body
+    style="
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 600px;
+      margin: 0 auto;
+    "
+  >
+    <div class="dropdown">
+      <button class="dropdown-button">
+        Risultato migliore
+        <span>
+          <svg
+            id="svg-dropdown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 16 16"
+            width="24"
+            height="24"
+          >
+            <path
+              d="M2.82 5.044 8 10.399 13.197 5l.963.875-5.364 5.565a1.164 1.164 0 0 1-1.636 0L1.875 5.945l.945-.901Z"
+            ></path>
+          </svg>
+        </span>
+      </button>
+      <div class="dropdown-content">
+        <label> <input type="checkbox" value="Opzione 1" /> Recensioni </label>
+        <label> <input type="checkbox" value="Opzione 2" /> Distanza</label>
+        <label>
+          <input type="checkbox" value="Opzione 3" /> Tempo di consegna stimato
+        </label>
+        <label>
+          <input type="checkbox" value="Opzione 5" /> Ordina minimo
+        </label>
+        <label>
+          <input type="checkbox" value="Opzione 6" /> Costi di consegna
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
