@@ -1,0 +1,141 @@
+/* contenitore esterno effettiva navbar */
+.contenitore-navbar-homepage-esterno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* contenitore bottoni ordine aziendale, diventa rider, diventa partner, accedi, lingua, hamburger menu */
+.contenitore-navbar-homepage-interno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* css testo bottone */
+
+.dimensioni-button-nav {
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+}
+
+.dimensioni-button-nav:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+/* bottoni */
+.contenitore-button-nav {
+  font-size: 0.9rem;
+  padding-top: 0.1rem;
+  font-weight: 700;
+  color: var(--homepage-text-color);
+}
+
+/* css lingua bottone*/
+.bottone-nav-lingua {
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottone-nav-lingua:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+
+/* css hamburger bottone*/
+.bottone-dimensioni-hamburger-menu {
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottone-dimensioni-hamburger-menu:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* mobile bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 0.2rem;
+  }
+
+  /* testo bottoni none perchè non servono in modalità mobile*/
+  .testo-buttone-ordine-aziendale,
+  .testo-buttone-diventa-rider,
+  .testo-buttone-diventa-partner,
+  .bottone-nav-lingua {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+
+  /* mobile bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 0.2rem;
+  }
+  /* mobile hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.7rem;
+    border-radius: 2rem;
+  }
+
+  /* testo bottoni none perchè non servono in modalità mobile*/
+  .testo-buttone-ordine-aziendale,
+  .testo-buttone-diventa-rider,
+  .testo-buttone-diventa-partner,
+  .bottone-nav-lingua {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+
+  /* tablet bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 0.2rem;
+  }
+  /* tablet lingua menu*/
+  .bottone-nav-lingua {
+    padding: 0.5rem;
+  }
+
+  /* tablet hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.5rem;
+  }
+  .testo-buttone-diventa-partner {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.linkscookie{
+    color: #242e30;
+    text-decoration: none;
+}
+
+.linkscookie:hover{
+    cursor: pointer;
+    color: #242e30;
+    text-decoration-line:underline;
+}

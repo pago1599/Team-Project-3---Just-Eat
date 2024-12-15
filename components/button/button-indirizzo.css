@@ -1,0 +1,27 @@
+.dimensioni-button-seconda-nav {
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dimensioni-button-seconda-nav:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+
+.contenitore-button-seconda-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  gap: 0.2rem;
+  font-family: var(--font-family);
+  color: var(--homepage-text-color);
+}
+
+.dimensione-testo-button-seconda-nav {
+  padding-top: 0.25rem;
+}

@@ -1,0 +1,23 @@
+.dimensioni-button-nav {
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.dimensioni-button-nav:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+
+.contenitore-button-nav {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--font-family);
+  color: var(--homepage-text-color);
+}

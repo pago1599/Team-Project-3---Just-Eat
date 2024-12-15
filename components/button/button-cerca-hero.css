@@ -1,0 +1,9 @@
+.dimensioni-bottone-cerca {
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 5rem;
+  background-color: var(--homepage-text-color-orange);
+  font-family: var(--font-family);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
