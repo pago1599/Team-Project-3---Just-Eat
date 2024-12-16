@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../common.css" />
+    <link rel="stylesheet" href="./sidebar.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <h2>192 locali</h2>
+      <div class="toggle">
+        <span>Aperto ora</span>
+        <input type="checkbox" />
+      </div>
+      <div class="toggle">
+        <span>Novità</span>
+        <input type="checkbox" />
+      </div>
+      <div class="toggle">
+        <span>Consegna gratuita</span>
+        <input type="checkbox" />
+      </div>
+
+      <div class="filter-section">
+        <h3>Importo minimo dell’ordine</h3>
+        <label>
+          <input type="radio" name="importo" checked />
+          Mostra tutti (192)
+        </label>
+        <label>
+          <input type="radio" name="importo" />
+          Fino a 10,00 € (187)
+        </label>
+        <label>
+          <input type="radio" name="importo" />
+          Fino a 15,00 € (190)
+        </label>
+      </div>
+
+      <div class="filter-section">
+        <h3>Valutazione</h3>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="filter-section">
+        <h3>Offerte e sconti</h3>
+        <label>
+          <input type="checkbox" />
+          Offerte (19)
+        </label>
+        <label>
+          <input type="checkbox" />
+          Carte Fedeltà (37)
+        </label>
+      </div>
+
+      <div class="filter-section">
+        <h3>Esigenze alimentari</h3>
+        <label class="disabled">
+          <input type="checkbox" disabled />
+          Halal (0)
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
