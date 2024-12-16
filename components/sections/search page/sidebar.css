@@ -1,0 +1,60 @@
+.sidebar {
+  width: 300px;
+  background-color: var(--homepage-backround-color);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 22px;
+  color: var(--homepage-text-color);
+}
+
+h3 {
+  font-size: 18px;
+  color: var(--homepage-text-color);
+  margin-bottom: 10px;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.toggle input {
+  width: 20px;
+  height: 20px;
+}
+
+.filter-section {
+  margin: 20px 0;
+}
+
+.filter-section label {
+  display: block;
+  margin: 5px 0;
+  color: var(--homepage-text-color);
+}
+
+.filter-section input[type="checkbox"],
+.filter-section input[type="radio"] {
+  margin-right: 10px;
+}
+
+.stars {
+  color: var(--homepage-text-color-orange);
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.disabled {
+  color: #ccc;
+}
+
+.disabled input {
+  cursor: not-allowed;
+}
