@@ -1,5 +1,5 @@
 .sidebar {
-  width: 300px;
+  width: 20%;
   background-color: var(--homepage-backround-color);
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -9,11 +9,13 @@
 h2 {
   margin-top: 0;
   font-size: 22px;
+  font-weight: 800;
   color: var(--homepage-text-color);
 }
 
 h3 {
   font-size: 18px;
+  font-weight: 800;
   color: var(--homepage-text-color);
   margin-bottom: 10px;
 }
@@ -23,6 +25,10 @@ h3 {
   justify-content: space-between;
   align-items: center;
   margin: 10px 0;
+}
+
+.toggle span {
+  font-weight: 800;
 }
 
 .toggle input {
@@ -46,9 +52,7 @@ h3 {
 }
 
 .stars {
-  color: var(--homepage-text-color-orange);
-  font-size: 20px;
-  letter-spacing: 3px;
+  fill: var(--homepage-text-color-orange);
 }
 
 .disabled {
