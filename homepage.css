@@ -1,0 +1,1106 @@
+/* inizio navbar*/
+/* contenitore esterno effettiva navbar */
+.contenitore-navbar-homepage-esterno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* box-shadow: 0 4px 10px -2px in rgba(0, 0, 0, 0.2); */
+}
+
+/* contenitore bottoni ordine aziendale, diventa rider, diventa partner, accedi, lingua, hamburger menu */
+.contenitore-navbar-homepage-interno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* css testo bottone */
+
+.dimensioni-button-nav {
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+}
+
+.dimensioni-button-nav:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+/* bottoni */
+.contenitore-button-nav {
+  font-size: 0.9rem;
+  padding-top: 0.1rem;
+  font-weight: 700;
+  color: var(--homepage-text-color);
+}
+
+/* css lingua bottone*/
+.bottone-nav-lingua {
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottone-nav-lingua:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+
+/* css hamburger bottone*/
+.bottone-dimensioni-hamburger-menu {
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.bottone-dimensioni-hamburger-menu:hover {
+  background-color: rgb(245, 245, 247);
+  transition: all 0.8s;
+}
+/* fine navbar*/
+
+/*inizio hero*/
+.section1 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--homepage-backround-color);
+}
+
+.left-side1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  height: auto;
+  padding-left: 100px;
+  background-color: var(--homepage-backround-color);
+}
+
+.left-side1 > h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--homepage-text-color);
+  padding-bottom: 30px;
+}
+
+.left-side1 > h2 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--homepage-text-color);
+  padding-bottom: 30px;
+}
+
+.cerca {
+  width: 80%;
+  height: auto;
+  border: 1px solid gray;
+  border-radius: 30px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.cerca input {
+  width: 80%;
+  border: none;
+  padding-left: 10px;
+  background-color: transparent;
+}
+
+.cerca button {
+  min-width: 100px;
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+  border: none;
+  background-color: var(--homepage-text-color-orange);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.cerca input:focus,
+input:focus-visible,
+input:active {
+  border: none;
+  outline: none;
+}
+
+.cerca button:hover {
+  cursor: pointer;
+}
+
+.poligono {
+  width: 7rem;
+  height: 31.25rem;
+  border: transparent;
+  background-color: var(--homepage-hero-color);
+  fill: var(--homepage-backround-color);
+}
+
+.right-side1 {
+  background-color: var(--homepage-hero-color);
+  width: 45%;
+  height: auto;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.image-pizza {
+  width: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  fill: var(--homepage-hero-color);
+}
+/* fine hero*/
+
+/* inizio prime card */
+.section-cosa-ordinare {
+  display: block;
+  background-color: #fcfcfc;
+  font-family: var(--font-family);
+  padding-block-start: 64px;
+  padding-block-end: 64px;
+  width: 100%;
+}
+
+.sopra-titolo-ordinare {
+  font-weight: 400;
+  color: var(--homepage-text-color);
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+}
+
+.section-ordinare-titolo {
+  color: var(--homepage-text-color-orange);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.contenitore-section-cards-ordinare {
+  padding-top: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  display: flex;
+  height: 100%;
+}
+
+.card-svg-ordinare {
+  fill: var(--homepage-text-color-orange);
+}
+
+.contenitore-card-testi_ordinare {
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+  max-height: 180px;
+  padding: 0;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contenitore-card-testi_ordinare h5 {
+  font-size: 13pt;
+  font-family: var(--font-family);
+  align-items: flex-start;
+  padding: 20px 0px 10px 0px;
+  margin: 0px;
+  min-width: 320px;
+}
+
+.contenitore-card-testi_ordinare p {
+  font-size: 10pt;
+  font-family: var(--font-family);
+  align-items: flex-start;
+  max-height: 40px;
+}
+
+.contenitore-card-testi_ordinare svg {
+  padding: 0;
+  height: 80px;
+  width: auto;
+}
+/* fine prime card*/
+
+/* inizio app just-eat*/
+.section3 {
+  background-color: var(--homepage-download-app-backround-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  padding: 2rem 0rem 0rem 0rem;
+}
+.left-side3 {
+  padding-left: 3rem;
+}
+.title {
+  font-weight: 800;
+  font-size: 3rem;
+  color: var(--homepage-text-color);
+  padding-bottom: 1.2rem;
+}
+.paragraph {
+  font-size: 1.5rem;
+  color: var(--homepage-text-color);
+  padding-bottom: 5rem;
+}
+#app-smartphone {
+  /* padding-top: 2.85rem;
+  padding-right: 3rem; */
+  width: 300px;
+  height: 400px;
+}
+
+.links {
+  text-decoration: none;
+}
+/* fine app just-eat*/
+
+/* inizio card vantaggi */
+.section-cards-voglia {
+  display: block;
+  background-color: var(--homepage-backround-color);
+  font-family: var(--font-family);
+  padding-block-start: 64px;
+  padding-block-end: 64px;
+  width: 100%;
+}
+
+.contenitore-card-voglia {
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.04), 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  color: var(--homepage-text-color);
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px 12px 0px 12px;
+}
+
+.card-voglia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 324px;
+  min-height: 320px;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.highlights-section-card-voglia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 22px;
+}
+
+.card-voglia-icona {
+  height: 64px;
+  width: 64px;
+  fill: var(--homepage-text-color-orange);
+  margin-bottom: 22px;
+}
+
+.elemento-voglia-titolo {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.highlights-section-testo-voglia {
+  min-width: 296px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-voglia-spunta {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 16px;
+}
+
+.icon-voglia-spunta {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+}
+
+.card-voglia-testo {
+  font-size: 14px;
+  text-align: left;
+  max-width: 240px;
+}
+
+.card-link-voglia {
+  text-decoration: underline;
+  color: #125fca;
+}
+/* fine card vantaggi */
+
+/* inizio footer*/
+.box-logo {
+  display: flex;
+  justify-content: center;
+  background-color: var(--homepage-footer-backround-color);
+  padding-top: 2rem;
+}
+
+.Immagine-logo {
+  color: var(--homepage-text-color);
+  filter: brightness(0) saturate(100%) invert(12%) sepia(6%) saturate(1969%)
+    hue-rotate(143deg) brightness(100%) contrast(86%);
+  padding-bottom: 1rem;
+}
+
+.Seguici {
+  color: var(--homepage-text-color);
+  padding-bottom: 1rem;
+}
+
+.footer-social {
+  background-color: var(--homepage-footer-backround-color);
+  color: var(--homepage-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+  text-decoration: none;
+}
+
+.footer-logosocial {
+  background-color: var(--homepage-footer-backround-color);
+  display: flex;
+  gap: 2rem;
+}
+
+.indice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family);
+  padding: 1rem 0.2rem 1rem 0rem;
+  font-size: large;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--homepage-footer-backround-color);
+  justify-content: center;
+  padding: 0rem 7rem 0rem 7rem;
+}
+.links-left {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.liste-links {
+  font-family: var(--font-family);
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.sito {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  display: list-item;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--homepage-text-color);
+  font-family: var(--font-family);
+}
+.sito:hover {
+  text-decoration-line: underline;
+}
+
+.info {
+  width: 60%;
+}
+
+.last-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 8px;
+  gap: 10px;
+  background-color: var(--homepage-footer-backround-color);
+}
+
+.last-links {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  color: var(--homepage-text-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.last-links:hover {
+  cursor: pointer;
+  color: var(--homepage-text-color);
+  text-decoration-line: underline;
+}
+
+.ultima-classe {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  color: var(--homepage-text-color);
+}
+
+.ultima-classe {
+  color: var(--homepage-text-color);
+  text-decoration: none;
+}
+
+.ultima-classe:hover {
+  cursor: pointer;
+  color: var(--homepage-text-color);
+  text-decoration-line: underline;
+}
+
+.preferenze {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  color: var(--homepage-text-color);
+  background-color: var(--homepage-footer-backround-color);
+}
+
+.preferenze:hover {
+  cursor: pointer;
+  color: var(--homepage-text-color);
+  text-decoration-line: underline;
+}
+
+.last-just-eat {
+  display: flex;
+  justify-content: center;
+  padding: 4px 16px 12px;
+  color: var(--homepage-text-color);
+  background-color: var(--homepage-footer-backround-color);
+}
+/* fine footer*/
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /*inizio navbar mobile*/
+  /* mobile bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 0.2rem;
+  }
+
+  /* testo bottoni none perchè non servono in modalità mobile*/
+  .testo-buttone-ordine-aziendale,
+  .testo-buttone-diventa-rider,
+  .testo-buttone-diventa-partner,
+  .bottone-nav-lingua {
+    display: none;
+  }
+  /* fine navbar mobile*/
+
+  /* inizio hero mobile */
+  .section1 {
+    flex-direction: column;
+  }
+  .left-side1 {
+    width: 100%;
+    padding: 0px 0px 30px 0px;
+  }
+  .left-side1 > h1 {
+    font-size: 2em;
+    font-weight: 800;
+    line-height: 40px;
+    padding: 40px 0px 20px 20px;
+  }
+  .left-side1 > h2 {
+    padding: 0px 0px 30px 20px;
+  }
+  #search {
+    width: 90%;
+    font-size: 0.85rem;
+  }
+  .poligono {
+    width: 100%;
+    height: 3.8vh;
+  }
+  .right-side1 {
+    width: 100%;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 320px;
+  }
+  /* fine hero mobile */
+  /* inizio prime card mobile */
+  .section-cosa-ordinare {
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+  }
+
+  .sopra-titolo-ordinare {
+    font-size: 20px;
+  }
+
+  .section-ordinare-titolo {
+    font-size: 32px;
+  }
+
+  .contenitore-section-cards-ordinare {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .contenitore-card-testi_ordinare {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    scroll-snap-align: start;
+    margin: 0;
+  }
+
+  .contenitore-card-testi_ordinare h5 {
+    font-size: 13px;
+  }
+
+  .contenitore-card-testi_ordinare p {
+    font-size: 12.5px;
+    max-width: 320px;
+    color: #242e30;
+  }
+
+  .contenitore-card-voglia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-height: 368px;
+    max-width: 750px;
+    position: relative;
+    scroll-snap-align: start;
+    margin: 0;
+    flex-shrink: 0;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .card-voglia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+
+  .elemento-voglia-titolo {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+  .card-voglia-testo {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  /* fine prime card mobile*/
+
+  /*inizio app just-eat mobile*/
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #app-smartphone {
+    width: 160px;
+    height: 230px;
+  }
+  .title {
+    font-size: 1.5rem;
+    padding: 0rem 0rem 1rem 0.5rem;
+  }
+  .paragraph {
+    font-size: 0.8rem;
+    padding: 0rem 0rem 1.5rem 0.5rem;
+  }
+  .left-side3 {
+    padding: 0;
+  }
+  #app-store {
+    height: 30px;
+    width: 90px;
+    padding: 0rem 0rem 0rem 0.5rem;
+  }
+  #google-play {
+    height: 30px;
+    width: 90px;
+    padding: 0rem 0rem 0rem 0.5rem;
+  }
+  /* fine app just-eat mobile*/
+
+  /* inizio footer mobile*/
+  .container {
+    flex-direction: column;
+    padding: 0;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .indice {
+    width: 280px;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    width: 300px;
+    padding-left: 1rem;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+  }
+  /* fine footer mobile*/
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /*inizio navbar tablet*/
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+
+  /* mobile bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 0.2rem;
+  }
+  /* mobile hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.7rem;
+    border-radius: 2rem;
+  }
+
+  /* testo bottoni none perchè non servono in modalità mobile*/
+  .testo-buttone-ordine-aziendale,
+  .testo-buttone-diventa-rider,
+  .testo-buttone-diventa-partner,
+  .bottone-nav-lingua {
+    display: none;
+  }
+  /* fine navbar  tablet*/
+
+  /*inizio hero tablet*/
+  .section1 {
+    flex-direction: column;
+  }
+  .left-side1 {
+    margin-top: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .left-side1 > h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+  }
+  .poligono {
+    width: 100%;
+    height: 11.8vh;
+  }
+  .right-side1 {
+    width: 100%;
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-pizza {
+    width: 300px;
+    height: 460px;
+  }
+  /* fine hero tablet*/
+  /* inizio prime card tablet */
+  .section-cosa-ordinare {
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+  }
+
+  .sopra-titolo-ordinare {
+    font-size: 20px;
+  }
+
+  .section-ordinare-titolo {
+    font-size: 32px;
+  }
+
+  .contenitore-section-cards-ordinare {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .contenitore-card-testi_ordinare {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    scroll-snap-align: start;
+    margin: 0;
+  }
+
+  .contenitore-card-testi_ordinare h5 {
+    font-size: 13px;
+  }
+
+  .contenitore-card-testi_ordinare p {
+    font-size: 12.5px;
+    max-width: 320px;
+    color: #242e30;
+  }
+
+  .contenitore-card-voglia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-height: 368px;
+    max-width: 750px;
+    position: relative;
+    scroll-snap-align: start;
+    margin: 0;
+    flex-shrink: 0;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .card-voglia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+
+  .elemento-voglia-titolo {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+  .card-voglia-testo {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  /* fine prime card tablet*/
+
+  /*inizio app just-eat tablet*/
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #app-smartphone {
+    width: 160px;
+    height: 230px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .paragraph {
+    font-size: 1rem;
+  }
+  .left-side3 {
+    padding: 0;
+  }
+  #app-store {
+    height: 30px;
+    width: 90px;
+  }
+  #google-play {
+    height: 30px;
+    width: 90px;
+  }
+  /*fine app just-eat tablet*/
+
+  /* inizio footer tablet*/
+  .container {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .indice {
+    width: 540px;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    padding-left: 1rem;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .last-just-eat {
+    display: flex;
+    justify-content: start;
+  }
+  /* fine footer tablet*/
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* inizio navbar*/
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+
+  /* tablet bottono testo*/
+  .dimensioni-button-nav {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    gap: 0.2rem;
+  }
+  /* tablet lingua menu*/
+  .bottone-nav-lingua {
+    padding: 0.5rem;
+  }
+
+  /* tablet hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.5rem;
+  }
+  .testo-buttone-diventa-partner {
+    display: none;
+  }
+  /* fine navbar*/
+  /* inizio prime card tablet */
+  .section-cosa-ordinare {
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+  }
+
+  .sopra-titolo-ordinare {
+    font-size: 20px;
+  }
+
+  .section-ordinare-titolo {
+    font-size: 32px;
+  }
+
+  .contenitore-section-cards-ordinare {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .contenitore-card-testi_ordinare {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 100%;
+    scroll-snap-align: start;
+    margin: 0;
+  }
+
+  .contenitore-card-testi_ordinare h5 {
+    font-size: 13px;
+  }
+
+  .contenitore-card-testi_ordinare p {
+    font-size: 12.5px;
+    max-width: 320px;
+    color: #242e30;
+  }
+
+  .contenitore-card-voglia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-height: 368px;
+    max-width: 750px;
+    position: relative;
+    scroll-snap-align: start;
+    margin: 0;
+    flex-shrink: 0;
+    margin: 0px 20px 0px 20px;
+  }
+
+  .card-voglia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+  }
+
+  .elemento-voglia-titolo {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+  .card-voglia-testo {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  /* fine prime card tablet*/
+
+  /* inizio footer tablet*/
+  .container {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .indice {
+    width: 730px;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    padding-left: 1rem;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .last-just-eat {
+    display: flex;
+    justify-content: start;
+  }
+  /* fine footer tablet*/
+}
