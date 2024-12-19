@@ -159,7 +159,7 @@
     color: #125fca;
 }
 
-@media (min-width: 320px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 992px) {
     .section-cosa-ordinare {
         padding-block-start: 40px;
         padding-block-end: 40px;
