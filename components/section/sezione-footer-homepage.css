@@ -1,0 +1,264 @@
+.box-logo {
+  display: flex;
+  justify-content: center;
+  background-color: var(--homepage-footer-backround-color);
+}
+
+.Immagine-logo {
+  color: #242e30;
+  filter: brightness(0) saturate(100%) invert(12%) sepia(6%) saturate(1969%)
+    hue-rotate(143deg) brightness(100%) contrast(86%);
+  padding-bottom: 1rem;
+}
+
+.Seguici {
+  color: var(--homepage-text-color);
+  padding-bottom: 1rem;
+}
+
+.footer-social {
+  background-color: var(--homepage-footer-backround-color);
+  color: var(--homepage-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+  text-decoration: none;
+}
+
+.footer-logosocial {
+  background-color: var(--homepage-footer-backround-color);
+  display: flex;
+  gap: 2rem;
+}
+
+.indice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-family);
+  padding: 1rem 0.2rem 1rem 0rem;
+  font-size: large;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--homepage-footer-backround-color);
+  justify-content: center;
+  padding: 0rem 7rem 0rem 7rem;
+}
+.links-left {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.liste-links {
+  font-family: var(--font-family);
+  padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.sito {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  display: list-item;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--homepage-text-color);
+  font-family: var(--font-family);
+}
+.sito:hover {
+  text-decoration-line: underline;
+}
+
+.info {
+  width: 60%;
+}
+
+.last-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px 8px;
+  gap: 20px;
+  background-color: var(--homepage-footer-backround-color);
+}
+
+.last-links {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  color: #242e30;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.last-links:hover {
+  cursor: pointer;
+  color: #242e30;
+  text-decoration-line: underline;
+}
+
+.ultima-classe {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  color: #242e30;
+}
+
+.ultima-classe {
+  color: #242e30;
+  text-decoration: none;
+}
+
+.ultima-classe:hover {
+  cursor: pointer;
+  color: #242e30;
+  text-decoration-line: underline;
+}
+
+.preferenze {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  color: var(--homepage-text-color);
+  background-color: var(--homepage-footer-backround-color);
+}
+
+.preferenze:hover {
+  cursor: pointer;
+  color: var(--homepage-text-color);
+  text-decoration-line: underline;
+}
+
+.last-just-eat {
+  display: flex;
+  justify-content: center;
+  padding: 4px 16px 12px;
+  color: var(--homepage-text-color);
+  background-color: var(--homepage-footer-backround-color);
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .indice {
+    width: 280px;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    width: 300px;
+    padding-left: 1rem;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .indice {
+    width: 540px;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    padding-left: 1rem;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .last-just-eat {
+    display: flex;
+    justify-content: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .indice {
+    width: 730px;
+    font-size: 0.9rem;
+    border: none;
+    padding: 0rem 1rem 0rem 1rem;
+    font-weight: 700;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .lista-links {
+    padding-left: 1rem;
+  }
+
+  .sito {
+    margin: 0;
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+  }
+
+  .ultima-classe {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .last-just-eat {
+    display: flex;
+    justify-content: start;
+  }
+}

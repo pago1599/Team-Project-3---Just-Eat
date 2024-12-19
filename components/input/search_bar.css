@@ -1,0 +1,25 @@
+#search-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border: 1px solid #242e30;
+  border-radius: 130px;
+  cursor: text;
+  padding: 0.2rem 0.2rem;
+  color: #242e30;
+}
+
+#search-container:hover {
+  background-color: var(--homepage-backround-color);
+}
+
+#address {
+  background-color: transparent;
+  width: 80%;
+  padding: 1rem;
+  outline-style: none;
+}
+
+#address:active {
+  background-color: transparent;
+}

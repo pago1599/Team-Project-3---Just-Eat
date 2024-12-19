@@ -1,0 +1,475 @@
+.lista-ristoranti-zona {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+}
+
+.ristoranti-ricerca-ordina_titolo {
+    display: flex;
+    align-items: center;
+}
+
+.titolo-ristoranti-ordina {
+    padding-right: 4px;
+    line-height: 32px;
+    font-size: 24px;
+}
+
+.icona-info-ricerca {
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.ricerca-ristorante-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 136px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, .03), 0px 3px 1px -2px rgba(0, 0, 0, .07), 0px 1px 5px 0px rgba(0, 0, 0, .06);
+    color: #242e30;
+    cursor: pointer;
+    min-width: 291px;
+    margin-right: 10px;
+}
+
+.ricerca-ristorante-card-link {
+    cursor: pointer;
+    color: #125fca;
+    background-color: initial;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+.ricerca-ristorante-card-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    cursor: pointer;
+}
+
+.ricerca-ristorante-card-contenitore_immagini {
+    position: relative;
+    display: block;
+}
+
+.ricerca-ristorante-card-immagine {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 144px;
+    overflow: hidden;
+    background-color: #f5f3f1;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-sizing: inherit;
+}
+
+.Immagine-mcdonald {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.ricerca-ristorante-card-logo {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    height: 48px;
+    width: 48px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #f5f3f1;
+}
+
+.ricerca-ristorante-card-testo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-self: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.ricerca-ristorante-card-nome {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 1;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 16;
+    font-weight: 800;
+    line-height: 24px;
+    color: #242e30;
+    text-decoration: none;
+}
+
+.ricerca-ristorante-card-tipo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    flex-shrink: 1;
+    width: 100%;
+    margin: 0;
+    margin-top: 4px;
+    color: #3c4c4f;
+    overflow: hidden;
+    box-sizing: inherit;
+    padding: 3px;
+
+}
+
+.ricerca-ristorante-card-voto {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-weight: 700;
+    color: #242e30;
+    margin: 0 10 0 -10;
+    overflow: hidden;
+}
+
+.ricerca-card-icona-stella {
+    margin-right: 4px;
+    fill: #f36805;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-top;
+    overflow: hidden;
+}
+
+.ricerca-ristorante-card-voti {
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 4px;
+    color: #3c4c4f;
+}
+
+.ricerca-ristorante-card-cucina {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    color: #3c4c4f;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ricerca-ristorante-card-consegna {
+    overflow: hidden;
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    width: 100%;
+    margin: 0;
+    margin-top: 4px;
+    color: #3c4c4f;
+}
+
+.ricerca-ristorante-card-info_consegna {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.ricerca-card-consegna-icona {
+    margin-right: 4px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-top;
+}
+
+/* Card JE orizzontale */
+
+.ricerca-card-orizzontale {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    min-height: 136px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,.03),0px 3px 1px -2px rgba(0,0,0,.07),0px 1px 5px 0px rgba(0,0,0,.06);
+    color: #242e30;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.ricerca-card-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ricerca-card-ristorante {
+    flex-direction: row;
+    display: flex;
+}
+
+.immagine-card-loghi {
+    position: relative;
+}
+
+.immagine-ricerca-ristorante {
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    display: flex;
+    align-items: center;
+    min-height: 144px;
+    overflow: hidden;
+}
+
+.immagine-ricerca-ristorante img {
+    display: flex;
+    min-height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.logo-ricerca-ristorante {
+    bottom: 16px;
+    left: 12px;
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #f5f3f1;
+}
+
+.fedeltà-ricerca-ristorante {
+    bottom: 16px;
+    right: 16px;
+    position: absolute;
+}
+
+.carta-fedeltà-ristorante {
+    background-color: #ffead4;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    border: 1px solid #ffead4;
+    font-weight: 400;
+    gap: 4px;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 0 5px;
+    justify-content: center;
+    vertical-align: middle;
+    color: #242e30;
+    text-decoration: none;
+}
+
+.testo-info-ristoranti {
+    align-items: center;
+    padding: 16px 16px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 100%;
+}
+
+.testo-info-nome {
+    flex-shrink: 0;
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: 800;
+    color: #242e30;
+    text-decoration: none;
+}
+
+.testo-info-voti_tipo {
+    flex-shrink: 0;
+    overflow: hidden;
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    width: 100%;
+    margin: 0;
+    margin-top: 4px;
+    color: #3c4c4f;
+}
+
+.testo-info-voti {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-weight: 700;
+    color: #242e30;
+    margin-right: 10px;
+}
+
+.info-icona-stella {
+    fill: #f36805;
+    margin-right: 4px;
+    display: inline-block;
+    position: relative;
+    vertical-align: text-top;
+}
+
+.ristoranti-quantità-voti {
+    padding-left: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3c4c4f;
+}
+
+.testo-info-tipo {
+    display: flex;
+    position: relative;
+    color: #3c4c4f;
+}
+
+.testo-info-opzioni_consegna {
+    overflow: hidden;
+    flex-shrink: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    width: 100%;
+    margin: 0;
+    margin-top: 4px;
+    color: #3c4c4f;
+}
+
+.testo-info-consegna {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.testo-info-gratuito {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2px 0;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 4px;
+    background-color: #f6c243;
+    padding: 0px 6px;
+    
+}
+
+.ricerca-icona-info {
+    margin-right: 4px;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .ricerca-card-ristorante {
+        flex-direction: column;
+        display: flex;   
+    }
+
+    .ricerca-card-orizzontale {
+        width: 100%;
+    }
+
+    .immagine-ricerca-ristorante img {
+        display: flex;
+        width: 100%;
+        max-height: 150px;
+        object-position: 50% 50%;
+        object-fit: cover;
+    }
+
+    .ricerca-card-ristorante {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .testo-info-nome {
+        font-size: 16px;
+    }
+
+    .immagine-ricerca-ristorante {
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 0;
+    }
+
+    .ricerca-ristorante-card {
+        max-width: 100%;
+        min-width: 300px ;
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    
+    .ricerca-card-ristorante {
+        flex-direction: column;
+        display: flex;   
+    }
+
+    .ricerca-card-orizzontale {
+        width: 80%;
+    }
+
+    .immagine-ricerca-ristorante img {
+        display: flex;
+        width: 100%;
+        max-height: 150px;
+        object-position: 50% 50%;
+        object-fit: cover;
+    }
+
+    .ricerca-card-ristorante {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .testo-info-nome {
+        font-size: 16px;
+    }
+
+    .immagine-ricerca-ristorante {
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 0;
+    }
+
+    .ricerca-ristorante-card {
+        max-width: 100%;
+        min-width: 540px ;
+        margin-right: 20px;
+    }
+
+    
+}
+
