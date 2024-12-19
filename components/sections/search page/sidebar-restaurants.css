@@ -358,10 +358,7 @@ h3 {
   vertical-align: text-top;
 }
 /* fine restaurants */
-.sezione-ristoranti-zona {
-  display: flex;
-  flex-direction: row;
-}
+
 /* inizio restaurants orizzontali */
 .ricerca-card-orizzontale {
   position: relative;
