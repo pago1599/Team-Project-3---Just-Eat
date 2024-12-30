@@ -160,6 +160,7 @@
   width: 114px;
   border-radius: 0.5rem;
   background-color: mediumslateblue;
+  cursor: pointer;
 }
 
 .quadrato-colorato-panino {
@@ -172,6 +173,7 @@
   width: 114px;
   border-radius: 0.5rem;
   background-color: orange;
+  cursor: pointer;
 }
 
 .quadrato-colorato-fritti {
@@ -184,6 +186,7 @@
   width: 114px;
   border-radius: 0.5rem;
   background-color: darkgoldenrod;
+  cursor: pointer;
 }
 
 .quadrato-colorato-insalata {
@@ -196,6 +199,7 @@
   width: 114px;
   border-radius: 0.5rem;
   background-color: green;
+  cursor: pointer;
 }
 
 .quadrato-colorato-poke {
@@ -207,7 +211,45 @@
   height: 66px;
   width: 114px;
   border-radius: 0.5rem;
+  cursor: pointer;
   background-color: deepskyblue;
+}
+
+.quadrato-colorato-spesa {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  height: 66px;
+  width: 114px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(255, 174, 0);
+}
+.quadrato-colorato-italiano {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  height: 66px;
+  width: 114px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(68, 38, 97);
+}
+.quadrato-colorato-americano {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  height: 66px;
+  width: 114px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(189, 20, 231);
 }
 
 .ridimensionamento-image {
@@ -239,6 +281,7 @@
   transform: translateX(0);
   transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out,
     width 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .contenitore-spunta-testo:hover .la-spunta-non-si-vede svg {
@@ -269,7 +312,7 @@
 /* fine navbar images */
 
 .restuarant-list-layout-page {
-  padding: 20px 125px 20px 125px;
+  padding: 20px 350px 20px 350px;
   background-color: #fcfcfc;
   display: flex;
   justify-content: center;
@@ -458,7 +501,7 @@ input:checked + .slider > .tick-checkbox {
 .input-container {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 /* inizio search-bar */
@@ -484,7 +527,7 @@ input:checked + .slider > .tick-checkbox {
 }
 
 #address {
-  padding: 1rem 20rem 1rem 0rem;
+  padding: 1rem 17rem 1rem 0rem;
   outline-style: none;
   background-color: transparent;
 }
