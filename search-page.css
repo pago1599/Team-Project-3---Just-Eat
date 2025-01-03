@@ -518,7 +518,6 @@ input:checked + .slider > .tick-checkbox {
   border: 1px solid var(--homepage-text-color);
   border-radius: 130px;
   cursor: text;
-  padding: 0.2rem 0.2rem;
   color: var(--homepage-text-color);
 }
 
@@ -530,6 +529,11 @@ input:checked + .slider > .tick-checkbox {
   padding: 1rem 17rem 1rem 0rem;
   outline-style: none;
   background-color: transparent;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
 }
 
 #address:active {
@@ -1053,3 +1057,276 @@ input:checked + .slider > .tick-checkbox {
   background-color: var(--homepage-footer-backround-color);
 }
 /* fine footer */
+
+/* mobile */
+@media (min-width: 320px) and (max-width: 576px) {
+  /* navbar */
+  /* testo bottoni none perchè non servono in modalità mobile*/
+  .contenitore-consegna-ritiro,
+  .immagine-just-eat-homepage,
+  .bottone-nav-lingua,
+  .contenitore-input,
+  .contenitore-ristoranti,
+  .sidebar {
+    display: none;
+  }
+
+  .allineamento-lista {
+    overflow-x: auto;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-consegna-ritiro-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--homepage-backround-color);
+    border-radius: 2rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-input-svg-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .search-bar-principal-container {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  #address {
+    padding: 0;
+  }
+  #search-container {
+    padding: 0;
+    width: 12rem;
+    height: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: none;
+    background-color: var(--homepage-backround-color);
+  }
+
+  .dimensione-contenitore-mappa {
+    padding: 0.6rem;
+  }
+
+  .svg-mappa {
+    width: 16px;
+    height: 16px;
+  }
+
+  .svg-allineamento-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .contenitore-sidebar-svg {
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+  }
+
+  .contenitore-sidebar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-offerta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    background-color: white;
+  }
+
+  .bottone-consegna {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 10.5rem;
+    background-color: white;
+  }
+
+  .bottone-carta {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 7.8rem;
+    background-color: white;
+  }
+
+  .stelle {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 5.2rem;
+    background-color: white;
+  }
+
+  .aperto {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+    background-color: white;
+  }
+
+  .nuovo {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+  }
+
+  .halal {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+  }
+
+  .offerta {
+    background-color: inherit;
+  }
+
+  .contenitore-bottoni-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contenitore-ordina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    background-color: white;
+  }
+
+  .ordina {
+    width: 5rem;
+  }
+
+  /* card */
+  .restuarant-list-layout-page {
+    padding: 0;
+    display: inherit;
+  }
+
+  .lista-ristoranti-zona {
+    min-width: 320px;
+  }
+
+  .immagine-ricerca-ristorante img {
+    min-width: 320px;
+  }
+  .lista-ristoranti-ricerca {
+    min-width: 320px;
+  }
+  .ricerca-card-ristorante {
+    display: inherit;
+  }
+
+  .testo-info-ristoranti {
+    padding: 0.5rem;
+  }
+
+  .testo-info-nome {
+    font-size: 1rem;
+  }
+
+  .testo-info-tipo {
+    font-size: 0.8rem;
+  }
+
+  .testo-info-consegna {
+    font-size: 0.8rem;
+  }
+
+  .last-part {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+
+  .ultima-classe {
+    padding: 0rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  /*tablet*/
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+  /* mobile hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.7rem;
+    border-radius: 2rem;
+  }
+
+  /* testo bottoni none perchè non servono in modalità mobile*/
+  .contenitore-consegna-ritiro,
+  .immagine-just-eat-homepage,
+  .bottone-nav-lingua,
+  .contenitore-input,
+  .contenitore-ristoranti {
+    display: none;
+  }
+
+  .allineamento-lista {
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* tablet */
+  /*immagine senza padding left*/
+  .immagine-just-eat-homepage {
+    padding-left: 0rem;
+  }
+
+  /* tablet lingua menu*/
+  .bottone-nav-lingua {
+    padding: 0.5rem;
+  }
+
+  /* tablet hamburger menu*/
+  .bottone-dimensioni-hamburger-menu {
+    padding: 0.5rem;
+  }
+  .testo-buttone-diventa-partner,
+  .contenitore-consegna-ritiro,
+  .riempimento-casa-just-eat-svg,
+  .contenitore-input,
+  .contenitore-ristoranti {
+    display: none;
+  }
+
+  .allineamento-lista {
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .riempimento-casa-just-eat-svg,
+  .contenitore-consegna-ritiro-mobile,
+  .contenitore-input-svg-mobile {
+    display: none;
+  }
+}
