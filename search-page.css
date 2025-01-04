@@ -603,7 +603,7 @@ input:checked + .slider > .tick-checkbox {
   flex-wrap: nowrap;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 10px;
+  padding-bottom: 0.65rem;
 }
 .titolo-ristoranti-zona_testo {
   padding: 1rem 0rem 1rem 0rem;
@@ -615,13 +615,13 @@ input:checked + .slider > .tick-checkbox {
 
 .titolo-ristoranti-ordina {
   padding: 1rem 0.5rem 1rem 0rem;
-  line-height: 32px;
-  font-size: 24px;
+  line-height: 2rem;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 
 .icona-info-ricerca {
-  margin-top: 4px;
+  margin-top: 0.25rem;
   cursor: pointer;
 }
 
@@ -629,15 +629,15 @@ input:checked + .slider > .tick-checkbox {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 136px;
-  border-radius: 12px;
+  min-height: 8.5rem;
+  border-radius: 0.75rem;
   background-color: #fff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.03),
     0px 3px 1px -2px rgba(0, 0, 0, 0.07), 0px 1px 5px 0px rgba(0, 0, 0, 0.06);
   color: #242e30;
   cursor: pointer;
-  min-width: 291px;
-  margin-right: 10px;
+  min-width: 18.188rem;
+  margin-right: 0.625rem;
 }
 
 .ricerca-ristorante-card-link {
@@ -665,11 +665,11 @@ input:checked + .slider > .tick-checkbox {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 144px;
+  height: 9rem;
   overflow: hidden;
   background-color: #f5f3f1;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
   box-sizing: inherit;
 }
 
@@ -685,12 +685,12 @@ input:checked + .slider > .tick-checkbox {
 
 .ricerca-ristorante-card-logo {
   position: absolute;
-  bottom: 12px;
-  left: 12px;
-  height: 48px;
-  width: 48px;
-  border-radius: 5px;
-  border: 2px solid #fff;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.313rem;
+  border: 0.125rem solid #fff;
   background-color: #f5f3f1;
 }
 
@@ -714,10 +714,10 @@ input:checked + .slider > .tick-checkbox {
   flex-shrink: 1;
   width: 100%;
   margin: 0;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
   font-size: 16;
   font-weight: 800;
-  line-height: 24px;
+  line-height: 1.5rem;
   color: #242e30;
   text-decoration: none;
 }
@@ -725,15 +725,15 @@ input:checked + .slider > .tick-checkbox {
 .ricerca-ristorante-card-tipo {
   display: inline-flex;
   flex-wrap: wrap;
-  row-gap: 4px;
+  row-gap: 0.25rem;
   flex-shrink: 1;
   width: 100%;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #3c4c4f;
   overflow: hidden;
   box-sizing: inherit;
-  padding: 3px;
+  padding: 0.188rem;
 }
 
 .ricerca-ristorante-card-voto {
@@ -741,7 +741,7 @@ input:checked + .slider > .tick-checkbox {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #242e30;
   margin: 0 10 0 -10;
@@ -749,7 +749,7 @@ input:checked + .slider > .tick-checkbox {
 }
 
 .ricerca-card-icona-stella {
-  margin-right: 4px;
+  margin-right: 0.25rem;
   fill: #f36805;
   display: inline-block;
   position: relative;
@@ -759,45 +759,45 @@ input:checked + .slider > .tick-checkbox {
 
 .ricerca-ristorante-card-voti {
   font-weight: 400;
-  font-size: 12px;
-  padding-left: 4px;
+  font-size: 0.75rem;
+  padding-left: 0.25rem;
   color: #3c4c4f;
 }
 
 .ricerca-ristorante-card-cucina {
   position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
   display: flex;
   color: #3c4c4f;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .ricerca-ristorante-card-consegna {
   overflow: hidden;
   display: inline-flex;
   flex-wrap: wrap;
-  row-gap: 4px;
+  row-gap: 0.25rem;
   width: 100%;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #3c4c4f;
 }
 
 .ricerca-ristorante-card-info_consegna {
   position: relative;
   margin-left: 0px;
-  margin-right: 16px;
+  margin-right: 1rem;
   display: flex;
   justify-content: flex-start;
-  padding: 2px 0;
-  font-size: 14px;
-  line-height: 16px;
+  padding: 0.125rem 0;
+  font-size: 0.875rem;
+  line-height: 1rem;
 }
 
 .ricerca-card-consegna-icona {
-  margin-right: 4px;
+  margin-right: 0.25rem;
   display: inline-block;
   position: relative;
   vertical-align: text-top;
@@ -810,15 +810,15 @@ input:checked + .slider > .tick-checkbox {
   display: flex;
   flex-direction: column;
   height: fit-content;
-  min-height: 136px;
-  border-radius: 12px;
+  min-height: 8.5rem;
+  border-radius: 0.875rem;
   background-color: #fff;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.03),
     0px 3px 1px -2px rgba(0, 0, 0, 0.07), 0px 1px 5px 0px rgba(0, 0, 0, 0.06);
   color: #242e30;
   text-decoration: none;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .ricerca-card-link {
@@ -838,11 +838,11 @@ input:checked + .slider > .tick-checkbox {
 .immagine-ricerca-ristorante {
   max-width: 100%;
   max-height: 100%;
-  border-bottom-left-radius: 12px;
-  border-top-left-radius: 12px;
+  border-bottom-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
   display: flex;
   align-items: center;
-  min-height: 144px;
+  min-height: 9rem;
   overflow: hidden;
 }
 
@@ -854,19 +854,19 @@ input:checked + .slider > .tick-checkbox {
 }
 
 .logo-ricerca-ristorante {
-  bottom: 16px;
-  left: 12px;
+  bottom: 1rem;
+  left: 0.75rem;
   position: absolute;
-  height: 48px;
-  width: 48px;
-  border-radius: 5px;
-  border: 2px solid #fff;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.313rem;
+  border: 0.125rem solid #fff;
   background-color: #f5f3f1;
 }
 
 .fedeltà-ricerca-ristorante {
-  bottom: 16px;
-  right: 16px;
+  bottom: 1rem;
+  right: 1rem;
   position: absolute;
 }
 
@@ -874,12 +874,12 @@ input:checked + .slider > .tick-checkbox {
   background-color: #ffead4;
   -webkit-box-align: center;
   -webkit-box-pack: center;
-  border: 1px solid #ffead4;
+  border: 0.063rem solid #ffead4;
   font-weight: 400;
-  gap: 4px;
-  border-radius: 6px;
-  font-size: 12px;
-  padding: 0 5px;
+  gap: 0.25rem;
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  padding: 0 0.313rem;
   justify-content: center;
   vertical-align: middle;
   color: #242e30;
@@ -888,7 +888,7 @@ input:checked + .slider > .tick-checkbox {
 
 .testo-info-ristoranti {
   align-items: center;
-  padding: 16px 16px 16px 24px;
+  padding: 1rem 1rem 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -898,10 +898,10 @@ input:checked + .slider > .tick-checkbox {
 
 .testo-info-nome {
   flex-shrink: 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   width: 100%;
   margin: 0;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
   font-weight: 800;
   color: #242e30;
   text-decoration: none;
@@ -912,10 +912,10 @@ input:checked + .slider > .tick-checkbox {
   overflow: hidden;
   display: inline-flex;
   flex-wrap: wrap;
-  row-gap: 4px;
+  row-gap: 0.25rem;
   width: 100%;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #3c4c4f;
 }
 
@@ -924,23 +924,23 @@ input:checked + .slider > .tick-checkbox {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
   color: #242e30;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .info-icona-stella {
   fill: #f36805;
-  margin-right: 4px;
+  margin-right: 0.25rem;
   display: inline-block;
   position: relative;
   vertical-align: text-top;
 }
 
 .ristoranti-quantità-voti {
-  padding-left: 4px;
-  font-size: 12px;
+  padding-left: 0.25rem;
+  font-size: 0.75rem;
   font-weight: 400;
   color: #3c4c4f;
 }
@@ -956,40 +956,40 @@ input:checked + .slider > .tick-checkbox {
   flex-shrink: 0;
   display: inline-flex;
   flex-wrap: wrap;
-  row-gap: 4px;
+  row-gap: 0.25rem;
   width: 100%;
   margin: 0;
-  margin-top: 4px;
+  margin-top: 0.25rem;
   color: #3c4c4f;
 }
 
 .testo-info-consegna {
   position: relative;
   margin-left: 0px;
-  margin-right: 16px;
+  margin-right: 1rem;
   display: flex;
   justify-content: flex-start;
-  padding: 2px 0;
-  font-size: 14px;
-  line-height: 16px;
+  padding: 0.125rem 0;
+  font-size: 0.875rem;
+  line-height: 1rem;
 }
 
 .testo-info-gratuito {
   position: relative;
   margin-left: 0px;
-  margin-right: 16px;
+  margin-right: 1rem;
   display: flex;
   justify-content: flex-start;
-  padding: 2px 0;
-  font-size: 14px;
-  line-height: 16px;
-  border-radius: 4px;
+  padding: 0.125 0;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  border-radius: 0.25rem;
   background-color: #f6c243;
-  padding: 0px 6px;
+  padding: 0rem 0.375rem;
 }
 
 .ricerca-icona-info {
-  margin-right: 4px;
+  margin-right: 0.25rem;
 }
 /* fine restaurants orizzontali */
 /* inizio footer */
@@ -1052,7 +1052,7 @@ input:checked + .slider > .tick-checkbox {
 .last-just-eat {
   display: flex;
   justify-content: center;
-  padding: 4px 16px 12px;
+  padding: 0.25rem 16px 12px;
   color: var(--homepage-text-color);
   background-color: var(--homepage-footer-backround-color);
 }
