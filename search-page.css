@@ -1222,39 +1222,47 @@ input:checked + .slider > .tick-checkbox {
   }
 
   /* card */
+
   .restuarant-list-layout-page {
     padding: 0;
-    display: inherit;
   }
 
-  .lista-ristoranti-zona {
-    min-width: 320px;
+  .ricerca-card-ristorante {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .ricerca-card-orizzontale {
+    width: 100%;
   }
 
   .immagine-ricerca-ristorante img {
-    min-width: 320px;
-  }
-  .lista-ristoranti-ricerca {
-    min-width: 320px;
-  }
-  .ricerca-card-ristorante {
-    display: inherit;
+    display: flex;
+    width: 100%;
+    max-height: 150px;
+    object-position: 50% 50%;
+    object-fit: cover;
   }
 
-  .testo-info-ristoranti {
-    padding: 0.5rem;
+  .ricerca-card-ristorante {
+    flex-direction: column;
+    display: flex;
   }
 
   .testo-info-nome {
-    font-size: 1rem;
+    font-size: 16px;
   }
 
-  .testo-info-tipo {
-    font-size: 0.8rem;
+  .immagine-ricerca-ristorante {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 0;
   }
 
-  .testo-info-consegna {
-    font-size: 0.8rem;
+  .ricerca-ristorante-card {
+    max-width: 100%;
+    min-width: 300px;
+    margin-right: 20px;
   }
 
   .last-part {
@@ -1285,12 +1293,201 @@ input:checked + .slider > .tick-checkbox {
   .immagine-just-eat-homepage,
   .bottone-nav-lingua,
   .contenitore-input,
-  .contenitore-ristoranti {
+  .contenitore-ristoranti,
+  .sidebar {
     display: none;
   }
 
   .allineamento-lista {
     overflow-x: auto;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-consegna-ritiro-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--homepage-backround-color);
+    border-radius: 2rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-input-svg-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .search-bar-principal-container {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  #address {
+    padding: 0;
+  }
+  #search-container {
+    padding: 0;
+    width: 12rem;
+    height: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: none;
+    background-color: var(--homepage-backround-color);
+  }
+
+  .dimensione-contenitore-mappa {
+    padding: 0.6rem;
+  }
+
+  .svg-mappa {
+    width: 16px;
+    height: 16px;
+  }
+
+  .svg-allineamento-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .contenitore-sidebar-svg {
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+  }
+
+  .contenitore-sidebar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-offerta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    background-color: white;
+  }
+
+  .bottone-consegna {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 10.5rem;
+    background-color: white;
+  }
+
+  .bottone-carta {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 7.8rem;
+    background-color: white;
+  }
+
+  .stelle {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 5.2rem;
+    background-color: white;
+  }
+
+  .aperto {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+    background-color: white;
+  }
+
+  .nuovo {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+  }
+
+  .halal {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+  }
+
+  .offerta {
+    background-color: inherit;
+  }
+
+  .contenitore-bottoni-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contenitore-ordina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    background-color: white;
+  }
+
+  .ordina {
+    width: 5rem;
+  }
+  /* card*/
+
+  .restuarant-list-layout-page {
+    padding: 0;
+  }
+  .ricerca-card-ristorante {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .ricerca-card-orizzontale {
+    width: 100%;
+  }
+
+  .immagine-ricerca-ristorante img {
+    display: flex;
+    width: 100%;
+    max-height: 150px;
+    object-position: 50% 50%;
+    object-fit: cover;
+  }
+
+  .ricerca-card-ristorante {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .testo-info-nome {
+    font-size: 16px;
+  }
+
+  .immagine-ricerca-ristorante {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 0;
+  }
+
+  .ricerca-ristorante-card {
+    max-width: 100%;
+    min-width: 300px;
+    margin-right: 20px;
   }
 }
 
@@ -1314,19 +1511,210 @@ input:checked + .slider > .tick-checkbox {
   .contenitore-consegna-ritiro,
   .riempimento-casa-just-eat-svg,
   .contenitore-input,
-  .contenitore-ristoranti {
+  .contenitore-ristoranti,
+  .sidebar {
     display: none;
   }
 
   .allineamento-lista {
     overflow-x: auto;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-consegna-ritiro-mobile {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--homepage-backround-color);
+    border-radius: 2rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-input-svg-mobile {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .search-bar-principal-container {
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  #address {
+    padding: 0;
+  }
+  #search-container {
+    padding: 0;
+    width: 12rem;
+    height: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: none;
+    background-color: var(--homepage-backround-color);
+  }
+
+  .dimensione-contenitore-mappa {
+    padding: 0.6rem;
+  }
+
+  .svg-mappa {
+    width: 16px;
+    height: 16px;
+  }
+
+  .svg-allineamento-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .contenitore-sidebar-svg {
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.4rem;
+  }
+
+  .contenitore-sidebar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0rem 1rem 0rem;
+    margin: 0rem 1rem 0rem 1rem;
+  }
+
+  .contenitore-offerta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    background-color: white;
+  }
+
+  .bottone-consegna {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 10.5rem;
+    background-color: white;
+  }
+
+  .bottone-carta {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 7.8rem;
+    background-color: white;
+  }
+
+  .stelle {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 5.2rem;
+    background-color: white;
+  }
+
+  .aperto {
+    border: 1px solid gray;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+    background-color: white;
+  }
+
+  .nuovo {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+  }
+
+  .halal {
+    padding: 0.4rem;
+    border-radius: 2rem;
+    width: 6rem;
+  }
+
+  .offerta {
+    background-color: inherit;
+  }
+
+  .contenitore-bottoni-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .contenitore-ordina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 0.4rem;
+    background-color: white;
+  }
+
+  .ordina {
+    width: 5rem;
+  }
+
+  /*card*/
+  .restuarant-list-layout-page {
+    padding: 0;
+  }
+
+  .ricerca-card-ristorante {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .ricerca-card-orizzontale {
+    width: 80%;
+  }
+
+  .immagine-ricerca-ristorante img {
+    display: flex;
+    width: 100%;
+    max-height: 150px;
+    object-position: 50% 50%;
+    object-fit: cover;
+  }
+
+  .ricerca-card-ristorante {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .testo-info-nome {
+    font-size: 16px;
+  }
+
+  .immagine-ricerca-ristorante {
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 0;
+  }
+
+  .ricerca-ristorante-card {
+    max-width: 100%;
+    min-width: 540px;
+    margin-right: 20px;
   }
 }
 
 @media (min-width: 992px) {
   .riempimento-casa-just-eat-svg,
   .contenitore-consegna-ritiro-mobile,
-  .contenitore-input-svg-mobile {
+  .contenitore-input-svg-mobile,
+  .contenitore-sidebar-mobile {
     display: none;
   }
 }
