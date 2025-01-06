@@ -311,6 +311,45 @@
 
 /* fine navbar images */
 
+/* inizio sidebar visualizzazione mobile */
+
+.contenitore-sidebar-mobile,
+.contenitore-offerta,
+.contenitore-ordina {
+  display: flex;
+}
+
+.svg-offerta {
+  background-color: #f6c243;
+  border-radius: 2rem;
+}
+
+.offerta {
+  background-color: #fff;
+}
+
+.contenitore-sidebar-mobile {
+  gap: 0.4rem;
+  padding: 1rem;
+}
+
+.contenitore-sidebar-svg,
+.contenitore-offerta,
+.bottone-consegna,
+.bottone-carta,
+.stelle,
+.aperto,
+.nuovo,
+.halal,
+.contenitore-ordina {
+  border: 1px solid var(--homepage-footer-backround-color);
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 0.6rem;
+  font-weight: 600;
+}
+/* fine sidebar visualizzazione mobile */
+
 .restuarant-list-layout-page {
   padding: 20px 350px 20px 350px;
   background-color: #fcfcfc;
