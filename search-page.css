@@ -351,7 +351,7 @@
 /* fine sidebar visualizzazione mobile */
 
 .restuarant-list-layout-page {
-  padding: 20px 350px 20px 350px;
+  padding: 1rem 2rem 1rem 2rem;
   background-color: #fcfcfc;
   display: flex;
   justify-content: center;
@@ -533,7 +533,6 @@ input:checked + .slider > .tick-checkbox {
 /* fine sidebar */
 
 .search-bar-principal-container {
-  display: flex;
   align-items: center;
   padding: 2rem 0rem 2rem 0rem;
 }
@@ -552,10 +551,15 @@ input:checked + .slider > .tick-checkbox {
   gap: 1rem;
 }
 
+.contenitore-input {
+  flex: 1 1 auto;
+}
+
 #search-container {
   display: flex;
   border: 1px solid var(--homepage-text-color);
   border-radius: 130px;
+  padding-right: 10rem;
   cursor: text;
   color: var(--homepage-text-color);
 }
@@ -565,7 +569,6 @@ input:checked + .slider > .tick-checkbox {
 }
 
 #address {
-  padding: 1rem 17rem 1rem 0rem;
   outline-style: none;
   background-color: transparent;
   display: flex;
@@ -1129,17 +1132,19 @@ input:checked + .slider > .tick-checkbox {
     margin: 0rem 1rem 0rem 1rem;
   }
 
+  .contenitore-input-mobile {
+    width: 100%;
+  }
+
+  .search-svg {
+    height: 2rem;
+    fill: var(--homepage-text-color-orange);
+  }
+
   .search-bar-principal-container {
     padding: 1rem 0rem 0rem 0rem;
   }
-
-  #address {
-    padding: 0;
-  }
   #search-container {
-    padding: 0;
-    width: 12rem;
-    height: 2rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -1147,13 +1152,42 @@ input:checked + .slider > .tick-checkbox {
     background-color: var(--homepage-backround-color);
   }
 
+  .pulsante-consegna-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8rem;
+    box-shadow: 0.5px 0.5px 5px 0.5px gray;
+  }
+
+  .pulsante-ritiro-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  #address {
+    font-size: 0.7rem;
+  }
+
   .dimensione-contenitore-mappa {
     padding: 0.6rem;
+    background-color: white;
   }
 
   .svg-mappa {
     width: 16px;
     height: 16px;
+    fill: var(--homepage-text-color-orange);
   }
 
   .svg-allineamento-mobile {
@@ -1342,6 +1376,29 @@ input:checked + .slider > .tick-checkbox {
     margin: 0rem 1rem 0rem 1rem;
   }
 
+  .pulsante-consegna-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8rem;
+    box-shadow: 0.5px 0.5px 5px 0.5px gray;
+  }
+
+  .pulsante-ritiro-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
   .contenitore-consegna-ritiro-mobile {
     display: flex;
     justify-content: space-between;
@@ -1357,16 +1414,18 @@ input:checked + .slider > .tick-checkbox {
   }
 
   .search-bar-principal-container {
+    align-items: center;
     padding: 1rem 0rem 0rem 0rem;
   }
 
+  .contenitore-input-mobile {
+    width: 100%;
+  }
+
   #address {
-    padding: 0;
+    font-size: 0.7rem;
   }
   #search-container {
-    padding: 0;
-    width: 12rem;
-    height: 2rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -1376,11 +1435,17 @@ input:checked + .slider > .tick-checkbox {
 
   .dimensione-contenitore-mappa {
     padding: 0.6rem;
+    background-color: white;
   }
 
   .svg-mappa {
     width: 16px;
     height: 16px;
+    fill: var(--homepage-text-color-orange);
+  }
+  .search-svg {
+    height: 2rem;
+    fill: var(--homepage-text-color-orange);
   }
 
   .svg-allineamento-mobile {
@@ -1560,6 +1625,29 @@ input:checked + .slider > .tick-checkbox {
     margin: 0rem 1rem 0rem 1rem;
   }
 
+  .pulsante-consegna-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8rem;
+    box-shadow: 0.5px 0.5px 5px 0.5px gray;
+  }
+
+  .pulsante-ritiro-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    font-weight: 700;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
   .contenitore-consegna-ritiro-mobile {
     display: flex;
     justify-content: space-between;
@@ -1577,14 +1665,14 @@ input:checked + .slider > .tick-checkbox {
   .search-bar-principal-container {
     padding: 1rem 0rem 0rem 0rem;
   }
+  .contenitore-input-mobile {
+    width: 100%;
+  }
 
   #address {
-    padding: 0;
+    font-size: 0.7rem;
   }
   #search-container {
-    padding: 0;
-    width: 12rem;
-    height: 2rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -1594,11 +1682,17 @@ input:checked + .slider > .tick-checkbox {
 
   .dimensione-contenitore-mappa {
     padding: 0.6rem;
+    background-color: white;
+  }
+  .search-svg {
+    height: 2rem;
+    fill: var(--homepage-text-color-orange);
   }
 
   .svg-mappa {
     width: 16px;
     height: 16px;
+    fill: var(--homepage-text-color-orange);
   }
 
   .svg-allineamento-mobile {
