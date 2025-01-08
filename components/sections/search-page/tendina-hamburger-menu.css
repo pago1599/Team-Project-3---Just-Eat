@@ -1,0 +1,49 @@
+.contenitore-generale-popup {
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 1rem;
+  box-shadow: 0rem 0rem 1rem 1rem black;
+  border-radius: 1rem;
+}
+
+.il-mio-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contenitore-accedi-crea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accedi-bottone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.crea-bottone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--homepage-hero-color);
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.lista-link-utili {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
