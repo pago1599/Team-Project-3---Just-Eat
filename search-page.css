@@ -351,7 +351,7 @@
 /* fine sidebar visualizzazione mobile */
 
 .restuarant-list-layout-page {
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 14rem 1rem 12rem;
   background-color: #fcfcfc;
   display: flex;
   justify-content: center;
@@ -1870,6 +1870,6 @@ input:checked + .slider > .tick-checkbox {
   }
 
   #search-container {
-    padding-right: 5rem;
+    padding-right: 2rem;
   }
 }
