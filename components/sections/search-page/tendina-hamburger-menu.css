@@ -1,10 +1,10 @@
 .contenitore-generale-popup {
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 500px;
   min-width: 300px;
   padding: 1rem;
-  box-shadow: 0rem 0rem 1rem 1rem black;
   border-radius: 1rem;
+  border: 1px solid gainsboro;
 }
 
 .il-mio-account {
@@ -12,32 +12,40 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  font-weight: 900;
+  font-size: 1.4rem;
 }
 
 .contenitore-accedi-crea {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .accedi-bottone {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: gainsboro;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 100%;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .crea-bottone {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--homepage-hero-color);
-  padding: 1rem;
+  background-color: var(--homepage-text-color-orange);
+  padding: 0.5rem;
   border-radius: 2rem;
   width: 100%;
+  font-weight: 700;
+  color: white;
+  font-size: 1rem;
 }
 
 .lista-link-utili {
@@ -45,5 +53,153 @@
   justify-content: start;
   align-items: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 0.8rem;
+  font-size: 0.85rem;
+}
+
+.linea-divisoria {
+  border-bottom: 1px solid gainsboro;
+}
+
+.link-modificati {
+  text-decoration: none;
+  color: var(--homepage-text-color);
+}
+
+.posizione-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingrnadimento-svg {
+  width: 1.4em;
+  height: 1.4em;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: 0;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}
+
+@media (min-width: 992px) {
+  .linea-divisoria-due,
+  .lista-link-utili-mobile {
+    display: none;
+  }
 }
