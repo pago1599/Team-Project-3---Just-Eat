@@ -366,7 +366,6 @@
 /* inizio sidebar */
 
 .sidebar {
-  width: 30%;
   padding: 10px;
   border-radius: 8px;
 }
@@ -1865,7 +1864,6 @@ input:checked + .slider > .tick-checkbox {
   }
 
   .restuarant-list-layout-content {
-    width: 60%;
     padding: 0rem 0.5rem 0rem 0.5rem;
   }
 
