@@ -649,6 +649,8 @@ input:checked + .slider > .tick-checkbox {
 }
 .titolo-ristoranti-zona_testo {
   padding: 1rem 0rem 1rem 0rem;
+  font-size: 1.3rem;
+  font-weight: 800;
 }
 .ristoranti-ricerca-ordina_titolo {
   display: flex;
@@ -658,7 +660,7 @@ input:checked + .slider > .tick-checkbox {
 .titolo-ristoranti-ordina {
   padding: 1rem 0.5rem 1rem 0rem;
   line-height: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 800;
 }
 
