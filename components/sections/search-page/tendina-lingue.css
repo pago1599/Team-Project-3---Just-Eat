@@ -1,1 +1,30 @@
+.principal-container-languages {
+  border: 1px solid var(--homepage-backround-color);
+  border-radius: 1rem;
+  box-shadow: 2px 2px rgba(241, 238, 238, 0.2);
+}
 
+.language-title {
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 1rem;
+}
+
+.country-language {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 0.9rem 1.5rem;
+}
+
+.layout-languages {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 34.125rem;
+  width: 28.5rem;
+}
+
+.thick-italy {
+  padding-left: 5rem;
+}
