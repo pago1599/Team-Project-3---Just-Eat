@@ -1,3 +1,116 @@
+.tendina {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.modal {
+  padding: 50px;
+  background: white;
+  border-radius: 20px;
+  transform: translateY(-50px);
+  transition: all 0.6s;
+}
+
+.show-tendina .tendina {
+  opacity: 1;
+  visibility: visible;
+}
+
+.show-tendina .modal {
+  transform: translateY(0px);
+}
+
+/*tendina css hamburger*/
+.contenitore-generale-popup {
+  max-width: 500px;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid gainsboro;
+}
+
+.il-mio-account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.contenitore-accedi-crea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.accedi-bottone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.crea-bottone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--homepage-text-color-orange);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  width: 100%;
+  font-weight: 700;
+  color: white;
+  font-size: 1rem;
+}
+
+.lista-link-utili {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem;
+  font-size: 0.85rem;
+}
+
+.linea-divisoria {
+  border-bottom: 1px solid gainsboro;
+}
+
+.link-modificati {
+  text-decoration: none;
+  color: var(--homepage-text-color);
+}
+
+.posizione-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingrnadimento-svg {
+  width: 1.4em;
+  height: 1.4em;
+}
+/* fine tendina css hamburger*/
+
 /* inizio navbar*/
 /* contenitore esterno effettiva navbar */
 .contenitore-navbar-homepage-esterno {
@@ -521,6 +634,44 @@ input:active {
 /* fine footer*/
 
 @media (min-width: 320px) and (max-width: 576px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+    height: 100%;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
   /*inizio navbar mobile*/
   /* mobile bottono testo*/
   .dimensioni-button-nav {
@@ -543,16 +694,16 @@ input:active {
   }
   .left-side1 {
     width: 100%;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 30px 20px;
   }
   .left-side1 > h1 {
     font-size: 2em;
     font-weight: 800;
     line-height: 40px;
-    padding: 40px 0px 20px 20px;
+    padding: 40px 0px 20px 0px;
   }
   .left-side1 > h2 {
-    padding: 0px 0px 30px 20px;
+    padding: 0px 0px 30px 0px;
   }
   #search {
     width: 90%;
@@ -706,10 +857,9 @@ input:active {
   }
 
   .indice {
-    width: 280px;
     font-size: 0.9rem;
     border: none;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 700;
   }
 
@@ -722,6 +872,10 @@ input:active {
   .lista-links {
     width: 300px;
     padding-left: 1rem;
+  }
+
+  .info {
+    width: 100%;
   }
 
   .sito {
@@ -737,6 +891,44 @@ input:active {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+    height: 100%;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
   /*inizio navbar tablet*/
   /*immagine senza padding left*/
   .immagine-just-eat-homepage {
@@ -767,10 +959,12 @@ input:active {
   .section1 {
     flex-direction: column;
   }
+
   .left-side1 {
     margin-top: 40px;
     padding-left: 24px;
     padding-right: 24px;
+    width: 100%;
   }
   .left-side1 > h1 {
     font-size: 32px;
@@ -917,10 +1111,9 @@ input:active {
   }
 
   .indice {
-    width: 540px;
     font-size: 0.9rem;
     border: none;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 700;
   }
 
@@ -940,6 +1133,10 @@ input:active {
     font-family: var(--font-family);
   }
 
+  .info {
+    width: 100%;
+  }
+
   .ultima-classe {
     padding: 0;
     font-size: 0.9rem;
@@ -953,6 +1150,44 @@ input:active {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: 0;
+    height: 100%;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
   /* inizio navbar*/
   /*immagine senza padding left*/
   .immagine-just-eat-homepage {
@@ -1070,11 +1305,14 @@ input:active {
   }
 
   .indice {
-    width: 730px;
     font-size: 0.9rem;
     border: none;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     font-weight: 700;
+  }
+
+  .info {
+    width: 100%;
   }
 
   .last-part {
@@ -1103,4 +1341,11 @@ input:active {
     justify-content: start;
   }
   /* fine footer tablet*/
+}
+
+@media (min-width: 992px) {
+  .linea-divisoria-due,
+  .lista-link-utili-mobile {
+    display: none;
+  }
 }

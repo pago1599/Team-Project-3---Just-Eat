@@ -74,7 +74,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: white;
   color: var(--homepage-text-color);
   border-radius: 2rem;
   padding: 0.4rem 1.5rem 0.4rem 1.5rem;
@@ -1159,6 +1159,7 @@ input:checked + .slider > .tick-checkbox {
     justify-content: center;
     border-radius: 2rem;
     padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    background-color: white;
     font-weight: 700;
     width: 100%;
     font-size: 0.8rem;
@@ -1388,6 +1389,7 @@ input:checked + .slider > .tick-checkbox {
     justify-content: center;
     border-radius: 2rem;
     padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    background-color: white;
     font-weight: 700;
     width: 100%;
     font-size: 0.8rem;
@@ -1641,6 +1643,7 @@ input:checked + .slider > .tick-checkbox {
     justify-content: center;
     border-radius: 2rem;
     padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    background-color: white;
     font-weight: 700;
     width: 100%;
     font-size: 0.8rem;
