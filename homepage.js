@@ -15,6 +15,13 @@ document
     }
   });
 
+// script per chiudere la tendina hamburger menu' dalla x di dentro
+const chiudiBtn = document.getElementById("chiudi-tendina-hamburger");
+
+chiudiBtn.addEventListener("click", () => {
+  showTendina.classList.remove("show-tendina");
+});
+
 const bottoneLingue = document.querySelector(`.bottone-nav-lingua`);
 const showTendinaLingue = document.querySelector(`.show-tendina-lingue`);
 
