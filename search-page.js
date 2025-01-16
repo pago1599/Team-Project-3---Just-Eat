@@ -171,7 +171,7 @@ const bottoneHamburger = document.querySelector("#bottone-hamburger");
 const showTendina = document.querySelector(".show-tendina");
 
 bottoneHamburger.addEventListener("click", function () {
-  showTendina.classList.toggle("show-tendina");
+  showTendina.classList.toggle(`show-tendina`);
 });
 
 document
@@ -189,7 +189,7 @@ chiudiBtn.addEventListener("click", () => {
   showTendina.classList.remove("show-tendina");
 });
 
-// bottone - lingue
+//bottone - lingue;
 const bottoneLingue = document.querySelector(`.bottone-nav-lingua`);
 const showTendinaLingue = document.querySelector(`.show-tendina-lingue`);
 
