@@ -22,6 +22,7 @@ chiudiBtn.addEventListener("click", () => {
   showTendina.classList.remove("show-tendina");
 });
 
+// bottone - lingue
 const bottoneLingue = document.querySelector(`.bottone-nav-lingua`);
 const showTendinaLingue = document.querySelector(`.show-tendina-lingue`);
 
