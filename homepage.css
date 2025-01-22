@@ -54,6 +54,10 @@
   transform: translateY(0px);
 }
 
+.puntatore-hamburger-menu {
+  cursor: pointer;
+}
+
 /* tendina lingue */
 .principal-container-languages {
   border: 1px solid var(--homepage-backround-color);

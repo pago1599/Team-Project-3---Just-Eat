@@ -30,10 +30,12 @@ bottoneLingue.addEventListener(`click`, function () {
   showTendinaLingue.classList.toggle(`show-tendina-lingue`);
 });
 
-document
-  .querySelector(".tendina-lingue")
-  .addEventListener("click", function (clickTendina) {
-    if (clickTendina.target === this) {
-      showTendinaLingue.classList.remove("show-tendina-lingue");
-    }
-  });
+document.addEventListener("click", function (event) {
+  // Controlla se il clic è avvenuto fuori dalla tendina e dal bottone
+  if (
+    !showTendinaLingue.contains(event.target) &&
+    !bottoneLingue.contains(event.target)
+  ) {
+    showTendinaLingue.classList.remove("show-tendina-lingue");
+  }
+});
