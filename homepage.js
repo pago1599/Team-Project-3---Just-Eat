@@ -1,7 +1,7 @@
 // bottone - hamburger-menu'
 
 const bottoneHamburger = document.querySelector("#bottone-hamburger");
-const showTendina = document.querySelector(".show-tendina");
+const showTendina = document.querySelector(".tendina-container");
 
 bottoneHamburger.addEventListener("click", function () {
   showTendina.classList.toggle("show-tendina");
@@ -22,17 +22,20 @@ chiudiBtn.addEventListener("click", () => {
   showTendina.classList.remove("show-tendina");
 });
 
+// bottone - lingue
 const bottoneLingue = document.querySelector(`.bottone-nav-lingua`);
-const showTendinaLingue = document.querySelector(`.show-tendina-lingue`);
+const showTendinaLingue = document.querySelector(`.tendina-lingue-container`);
 
 bottoneLingue.addEventListener(`click`, function () {
   showTendinaLingue.classList.toggle(`show-tendina-lingue`);
 });
 
-document
-  .querySelector(".tendina-lingue")
-  .addEventListener("click", function (clickTendina) {
-    if (clickTendina.target === this) {
-      showTendinaLingue.classList.remove("show-tendina-lingue");
-    }
-  });
+document.addEventListener("click", function (event) {
+  // Controlla se il clic è avvenuto fuori dalla tendina e dal bottone
+  if (
+    !showTendinaLingue.contains(event.target) &&
+    !bottoneLingue.contains(event.target)
+  ) {
+    showTendinaLingue.classList.remove("show-tendina-lingue");
+  }
+});
