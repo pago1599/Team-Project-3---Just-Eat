@@ -2035,7 +2035,8 @@ input:checked + .slider > .tick-checkbox {
   .riempimento-casa-just-eat-svg,
   .contenitore-consegna-ritiro-mobile,
   .contenitore-input-svg-mobile,
-  .contenitore-sidebar-mobile {
+  .contenitore-sidebar-mobile,
+  .contenitore-paese {
     display: none;
   }
 
