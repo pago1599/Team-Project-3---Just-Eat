@@ -1277,6 +1277,44 @@ input:checked + .slider > .tick-checkbox {
 
 /* mobile */
 @media (min-width: 320px) and (max-width: 576px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+    height: 100%;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
   /* navbar */
   /* testo bottoni none perchè non servono in modalità mobile*/
   .contenitore-consegna-ritiro,
@@ -1531,6 +1569,44 @@ input:checked + .slider > .tick-checkbox {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+    height: 100%;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
   /*tablet*/
   /*immagine senza padding left*/
   .immagine-just-eat-homepage {
@@ -1782,6 +1858,44 @@ input:checked + .slider > .tick-checkbox {
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  .contenitore-generale-popup {
+    border-radius: 0rem;
+    max-width: inherit;
+    border: none;
+    height: 100%;
+  }
+
+  .il-mio-account {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .lista-link-utili {
+    padding: 1rem;
+  }
+
+  .lista-link-utili-mobile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .contenitore-paese {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linea-divisoria-due {
+    border-bottom: 1px solid gainsboro;
+  }
+
+  .ingrnadimento-svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
   /* tablet */
   /*immagine senza padding left*/
   .immagine-just-eat-homepage {
