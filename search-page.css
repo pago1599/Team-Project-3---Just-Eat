@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .tendina {
   position: fixed;
   width: 100%;
@@ -741,7 +745,7 @@ input:checked + .slider > .tick-checkbox {
   background-color: var(--homepage-backround-color);
 }
 
-#address {
+#addressRicerca {
   outline-style: none;
   background-color: transparent;
   display: flex;
@@ -751,7 +755,7 @@ input:checked + .slider > .tick-checkbox {
   font-size: 1rem;
 }
 
-#address:active {
+#addressRicerca:active {
   background-color: transparent;
 }
 /* fine search-bar */
@@ -1274,6 +1278,29 @@ input:checked + .slider > .tick-checkbox {
   background-color: var(--homepage-footer-backround-color);
 }
 /* fine footer */
+
+.torna-su-michele-madrid {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.riempi-svg {
+  fill: var(--homepage-text-color-orange);
+}
+
+.dimensione-bottone-tornasu {
+  border-radius: 5rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 8px 20px -3px, rgba(0, 0, 0, 0.06) 0px 4px 8px -2px;
+  height: 54px;
+  width: 54px;
+  cursor: pointer;
+}
 
 /* mobile */
 @media (min-width: 320px) and (max-width: 576px) {
@@ -2163,5 +2190,6 @@ input:checked + .slider > .tick-checkbox {
 
   #search-container {
     padding-right: 2rem;
+    background-color: white;
   }
 }

@@ -47,6 +47,14 @@ const links = document.querySelector(".tendina-just-eat");
 
 button.addEventListener("click", function () {
   links.classList.toggle("tendina-just-eat");
+
+  if (links.style.display === "none") {
+    links.style.display = "block";
+    this.classList.remove("open");
+  } else {
+    links.style.display = "none";
+    this.classList.add("open");
+  }
 });
 
 const buttonInter = document.querySelector("#button-internazionale");
@@ -54,6 +62,14 @@ const linksInter = document.querySelector(".tendina-internazionale");
 
 buttonInter.addEventListener("click", function () {
   linksInter.classList.toggle("tendina-internazionale");
+
+  if (linksInter.style.display === "block") {
+    linksInter.style.display = "none";
+    this.classList.remove("open");
+  } else {
+    linksInter.style.display = "block";
+    this.classList.add("open");
+  }
 });
 
 const buttonCucine = document.querySelector("#button-cucine");
@@ -61,6 +77,14 @@ const linksCucine = document.querySelector(".tendina-cucine");
 
 buttonCucine.addEventListener("click", function () {
   linksCucine.classList.toggle("tendina-cucine");
+
+  if (linksCucine.style.display === "block") {
+    linksCucine.style.display = "none";
+    this.classList.remove("open");
+  } else {
+    linksCucine.style.display = "block";
+    this.classList.add("open");
+  }
 });
 
 const buttonEsplora = document.querySelector("#button-esplora");
@@ -68,6 +92,14 @@ const linksEsplora = document.querySelector(".tendina-esplora");
 
 buttonEsplora.addEventListener("click", function () {
   linksEsplora.classList.toggle("tendina-esplora");
+
+  if (linksEsplora.style.display === "block") {
+    linksEsplora.style.display = "none";
+    this.classList.remove("open");
+  } else {
+    linksEsplora.style.display = "block";
+    this.classList.add("open");
+  }
 });
 
 const buttonCitta = document.querySelector("#button-citta");
@@ -75,6 +107,14 @@ const linksCitta = document.querySelector(".tendina-citta");
 
 buttonCitta.addEventListener("click", function () {
   linksCitta.classList.toggle("tendina-citta");
+
+  if (linksCitta.style.display === "block") {
+    linksCitta.style.display = "none";
+    this.classList.remove("open");
+  } else {
+    linksCitta.style.display = "block";
+    this.classList.add("open");
+  }
 });
 
 const buttonCatene = document.querySelector("#button-catene");
@@ -82,4 +122,12 @@ const linksCatene = document.querySelector(".tendina-catene");
 
 buttonCatene.addEventListener("click", function () {
   linksCatene.classList.toggle("tendina-catene");
+
+  if (linksCatene.style.display === "block") {
+    linksCatene.style.display = "none";
+    this.classList.remove("open");
+  } else {
+    linksCatene.style.display = "block";
+    this.classList.add("open");
+  }
 });

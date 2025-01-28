@@ -1,3 +1,7 @@
+* {
+  scroll-behavior: smooth;
+}
+
 .tendina {
   position: fixed;
   width: 100%;
@@ -551,7 +555,6 @@ input:active {
 
 /* inizio footer*/
 
-.tendina-just-eat,
 .tendina-internazionale,
 .tendina-cucine,
 .tendina-esplora,
@@ -560,9 +563,62 @@ input:active {
   display: none;
 }
 
+/* inizio */
+
+#button-just-eat span {
+  transition: transform 0.3s ease;
+}
+
+#button-just-eat.open span {
+  transform: rotate(180deg);
+}
+
+#button-internazionale span {
+  transition: transform 0.3s ease;
+}
+
+#button-internazionale.open span {
+  transform: rotate(180deg);
+}
+
+#button-cucine span {
+  transition: transform 0.3s ease;
+}
+
+#button-cucine.open span {
+  transform: rotate(180deg);
+}
+
+#button-catene span {
+  transition: transform 0.3s ease;
+}
+
+#button-catene.open span {
+  transform: rotate(180deg);
+}
+
+#button-esplora span {
+  transition: transform 0.3s ease;
+}
+
+#button-esplora.open span {
+  transform: rotate(180deg);
+}
+
+#button-citta span {
+  transition: transform 0.3s ease;
+}
+
+#button-citta.open span {
+  transform: rotate(180deg);
+}
+/* fine */
+
 .lista-links-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  font-size: 0.9rem;
 }
 
 .box-logo {
@@ -576,12 +632,11 @@ input:active {
   color: var(--homepage-text-color);
   filter: brightness(0) saturate(100%) invert(12%) sepia(6%) saturate(1969%)
     hue-rotate(143deg) brightness(100%) contrast(86%);
-  padding-bottom: 1rem;
 }
 
 .Seguici {
   color: var(--homepage-text-color);
-  padding-bottom: 1rem;
+  padding: 2rem 0rem 2rem 0rem;
 }
 
 .footer-social {
@@ -590,7 +645,7 @@ input:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0rem 1rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
   text-decoration: none;
 }
 
@@ -607,21 +662,28 @@ input:active {
   font-family: var(--font-family);
   padding: 1rem 0.2rem 1rem 0rem;
   font-size: large;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid gainsboro;
   cursor: pointer;
+  background-color: var(--homepage-footer-backround-color);
+}
+
+.indice > div {
+  font-weight: 800;
 }
 
 .container {
   display: flex;
+  justify-content: center;
   gap: 2rem;
   background-color: var(--homepage-footer-backround-color);
-  justify-content: center;
   padding: 0rem 7rem 0rem 7rem;
+  width: 100%;
 }
 .links-left {
   display: flex;
   flex-direction: column;
-  font-size: 0.8rem;
+  width: 30%;
+  font-size: 0.9rem;
 }
 
 .liste-links {
@@ -642,7 +704,9 @@ input:active {
 }
 
 .info {
-  width: 60%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 
 .last-part {
@@ -693,12 +757,14 @@ input:active {
   padding: 12px 0;
   color: var(--homepage-text-color);
   background-color: var(--homepage-footer-backround-color);
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 .preferenze:hover {
   cursor: pointer;
   color: var(--homepage-text-color);
-  text-decoration-line: underline;
+  text-decoration-line: none;
 }
 
 .last-just-eat {
@@ -709,6 +775,29 @@ input:active {
   background-color: var(--homepage-footer-backround-color);
 }
 /* fine footer*/
+
+.torna-su-michele-madrid {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.riempi-svg {
+  fill: var(--homepage-text-color-orange);
+}
+
+.dimensione-bottone-tornasu {
+  border-radius: 5rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 8px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 8px 20px -3px, rgba(0, 0, 0, 0.06) 0px 4px 8px -2px;
+  height: 54px;
+  width: 54px;
+  cursor: pointer;
+}
 
 @media (min-width: 320px) and (max-width: 576px) {
   .contenitore-generale-popup {
@@ -950,6 +1039,10 @@ input:active {
   .lista-links {
     width: 300px;
     padding-left: 1rem;
+  }
+
+  .links-left {
+    width: 100%;
   }
 
   .info {
@@ -1215,6 +1308,9 @@ input:active {
   .info {
     width: 100%;
   }
+  .links-left {
+    width: 100%;
+  }
 
   .ultima-classe {
     padding: 0;
@@ -1408,6 +1504,10 @@ input:active {
     margin: 0;
     font-size: 0.9rem;
     font-family: var(--font-family);
+  }
+
+  .links-left {
+    width: 100%;
   }
 
   .ultima-classe {
