@@ -550,6 +550,21 @@ input:active {
 /* fine card vantaggi */
 
 /* inizio footer*/
+
+.tendina-just-eat,
+.tendina-internazionale,
+.tendina-cucine,
+.tendina-esplora,
+.tendina-citta,
+.tendina-catene {
+  display: none;
+}
+
+.lista-links-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .box-logo {
   display: flex;
   justify-content: center;

@@ -39,3 +39,47 @@ document.addEventListener("click", function (event) {
     showTendinaLingue.classList.remove("show-tendina-lingue");
   }
 });
+
+// tendine footer
+
+const button = document.querySelector("#button-just-eat");
+const links = document.querySelector(".tendina-just-eat");
+
+button.addEventListener("click", function () {
+  links.classList.toggle("tendina-just-eat");
+});
+
+const buttonInter = document.querySelector("#button-internazionale");
+const linksInter = document.querySelector(".tendina-internazionale");
+
+buttonInter.addEventListener("click", function () {
+  linksInter.classList.toggle("tendina-internazionale");
+});
+
+const buttonCucine = document.querySelector("#button-cucine");
+const linksCucine = document.querySelector(".tendina-cucine");
+
+buttonCucine.addEventListener("click", function () {
+  linksCucine.classList.toggle("tendina-cucine");
+});
+
+const buttonEsplora = document.querySelector("#button-esplora");
+const linksEsplora = document.querySelector(".tendina-esplora");
+
+buttonEsplora.addEventListener("click", function () {
+  linksEsplora.classList.toggle("tendina-esplora");
+});
+
+const buttonCitta = document.querySelector("#button-citta");
+const linksCitta = document.querySelector(".tendina-citta");
+
+buttonCitta.addEventListener("click", function () {
+  linksCitta.classList.toggle("tendina-citta");
+});
+
+const buttonCatene = document.querySelector("#button-catene");
+const linksCatene = document.querySelector(".tendina-catene");
+
+buttonCatene.addEventListener("click", function () {
+  linksCatene.classList.toggle("tendina-catene");
+});
