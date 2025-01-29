@@ -745,6 +745,20 @@ input:checked + .slider > .tick-checkbox {
   background-color: var(--homepage-backround-color);
 }
 
+#addressRicercaCards {
+  outline-style: none;
+  background-color: transparent;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+#addressRicercaCards:active {
+  background-color: transparent;
+}
+
 #addressRicerca {
   outline-style: none;
   background-color: transparent;
