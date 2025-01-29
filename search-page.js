@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const searchInput = document.getElementById("addressRicerca");
+  const searchInput = document.getElementById("addressRicercaCards");
+  const searchInputTablet = document.getElementById("addressRicerca");
   const container = document.getElementById("container-cards");
 
   const ristoranti = [
@@ -245,6 +246,23 @@ document.addEventListener("DOMContentLoaded", function () {
   mostraRistoranti("");
 
   searchInput.addEventListener("input", (event) => {
+    const filtro = event.target.value;
+    mostraRistoranti(filtro);
+  });
+
+  function mostraRistoranti(filtro) {
+    container.innerHTML = "";
+    const risultati = ristoranti.filter((ristorante) =>
+      ristorante.nome.toLowerCase().includes(filtro.toLowerCase())
+    );
+    risultati.forEach((ristorante) => {
+      container.appendChild(creaCard(ristorante));
+    });
+  }
+
+  mostraRistoranti("");
+
+  searchInputTablet.addEventListener("input", (event) => {
     const filtro = event.target.value;
     mostraRistoranti(filtro);
   });
