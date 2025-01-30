@@ -2,6 +2,8 @@
   scroll-behavior: smooth;
 }
 
+/* INIZIO TENDINE SECONDA PAGINA */
+
 .tendina {
   position: fixed;
   width: 100%;
@@ -176,6 +178,10 @@
 }
 /* fine tendina css hamburger*/
 
+/* FINE TENDINE SECONDA PAGINA */
+
+/* INIZIO NAVBAR SECONDA PAGINA*/
+
 /* contenitore esterno effettiva navbar */
 .contenitore-navbar-homepage-esterno {
   display: flex;
@@ -318,7 +324,9 @@
   background-color: rgb(245, 245, 247);
   transition: all 0.8s;
 }
-/* fine navbar */
+/* FINE NAVBAR SECONDA PAGINA*/
+
+/* INIZIO CARD CIBI */
 
 /* inizio navabr images */
 .allineamento-lista {
@@ -487,7 +495,7 @@
   background-color: whitesmoke;
 }
 
-/* fine navbar images */
+/* INIZIO CARD CIBI */
 
 /* inizio sidebar visualizzazione mobile */
 
@@ -528,6 +536,7 @@
 }
 /* fine sidebar visualizzazione mobile */
 
+/* CONTENITORE SIDEBAR E CARDS*/
 .restuarant-list-layout-page {
   padding: 1rem 14rem 1rem 12rem;
   background-color: #fcfcfc;
@@ -541,15 +550,15 @@
   flex-direction: column;
   width: 70%;
 }
+/* FINE CONTENITORE SIDEBAR E CARDS*/
+
 /* inizio sidebar */
 
 .sidebar {
   padding: 10px;
-  border-radius: 8px;
 }
 
 .restaurants-title {
-  margin-top: 0;
   font-size: 1.2rem;
   font-weight: 800;
   color: var(--homepage-text-color);
@@ -709,6 +718,7 @@ input:checked + .slider > .tick-checkbox {
 }
 /* fine sidebar */
 
+/* BARRA DI RICERCA */
 .search-bar-principal-container {
   align-items: center;
   padding: 2rem 0rem 2rem 0rem;
@@ -718,8 +728,6 @@ input:checked + .slider > .tick-checkbox {
   align-items: center;
   gap: 2rem;
 }
-
-/* inizio search-bar */
 
 .contenitore-ristoranti {
   display: flex;
@@ -772,9 +780,7 @@ input:checked + .slider > .tick-checkbox {
 #addressRicerca:active {
   background-color: transparent;
 }
-/* fine search-bar */
 
-/* inizio options-select */
 .dropdown h3 {
   display: flex;
   align-items: center;
@@ -812,9 +818,7 @@ input:checked + .slider > .tick-checkbox {
   padding: 0px 0px 0px 20px;
   box-sizing: unset;
 }
-/* fine options-select */
 
-/* inizio button map */
 .dimensione-contenitore-mappa {
   padding: 1rem;
   border-radius: 5rem;
@@ -828,7 +832,7 @@ input:checked + .slider > .tick-checkbox {
 .dimensione-contenitore-mappa:hover {
   background-color: #ebeaea;
 }
-/* fine button map */
+/*  FINE BARRA DI RICERCA */
 
 /* inizio restaurants */
 .lista-ristoranti-zona {
@@ -1227,6 +1231,7 @@ input:checked + .slider > .tick-checkbox {
   margin-right: 0.25rem;
 }
 /* fine restaurants orizzontali */
+
 /* inizio footer */
 .last-part {
   display: flex;
@@ -1293,6 +1298,7 @@ input:checked + .slider > .tick-checkbox {
 }
 /* fine footer */
 
+/* bottone torna su*/
 .torna-su-michele-madrid {
   position: fixed;
   bottom: 0;
@@ -1315,6 +1321,7 @@ input:checked + .slider > .tick-checkbox {
   width: 54px;
   cursor: pointer;
 }
+/* fine bottone torna su*/
 
 /* mobile */
 @media (min-width: 320px) and (max-width: 576px) {
@@ -1609,6 +1616,7 @@ input:checked + .slider > .tick-checkbox {
   }
 }
 
+/* TABLET */
 @media (min-width: 576px) and (max-width: 768px) {
   .contenitore-generale-popup {
     border-radius: 0rem;
@@ -1897,7 +1905,7 @@ input:checked + .slider > .tick-checkbox {
     margin-right: 20px;
   }
 }
-
+/* TABLET GRANDE */
 @media (min-width: 768px) and (max-width: 992px) {
   .contenitore-generale-popup {
     border-radius: 0rem;
@@ -2188,7 +2196,7 @@ input:checked + .slider > .tick-checkbox {
     margin-right: 20px;
   }
 }
-
+/* COMPUTER*/
 @media (min-width: 992px) {
   .riempimento-casa-just-eat-svg,
   .contenitore-consegna-ritiro-mobile,

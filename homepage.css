@@ -1,7 +1,7 @@
 * {
   scroll-behavior: smooth;
 }
-
+/* INIZIO TENDINE */
 .tendina {
   position: fixed;
   width: 100%;
@@ -176,8 +176,9 @@
   height: 1.4em;
 }
 /* fine tendina css hamburger*/
+/* FINE TENDINE*/
 
-/* inizio navbar*/
+/* INIZIO NAVBAR*/
 /* contenitore esterno effettiva navbar */
 .contenitore-navbar-homepage-esterno {
   display: flex;
@@ -252,9 +253,9 @@
   background-color: rgb(245, 245, 247);
   transition: all 0.8s;
 }
-/* fine navbar*/
+/* FINE NAVBAR*/
 
-/*inizio hero*/
+/*INIZIO HERO*/
 .section1 {
   position: relative;
   display: flex;
@@ -353,9 +354,9 @@ input:active {
   padding-bottom: 50px;
   fill: var(--homepage-hero-color);
 }
-/* fine hero*/
+/* FINE HERO*/
 
-/* inizio prime card */
+/* INIZIO CARD COSA ORDINARE */
 .section-cosa-ordinare {
   display: block;
   background-color: #fcfcfc;
@@ -428,9 +429,9 @@ input:active {
   height: 80px;
   width: auto;
 }
-/* fine prime card*/
+/* FINE CARD COSA ORDINARE */
 
-/* inizio app just-eat*/
+/* INIZIO APP JUST EAT*/
 .section3 {
   background-color: var(--homepage-download-app-backround-color);
   display: flex;
@@ -464,9 +465,9 @@ input:active {
 .links {
   text-decoration: none;
 }
-/* fine app just-eat*/
+/* FINE APP JUST EAT*/
 
-/* inizio card vantaggi */
+/* INIZIO CARD VANTAGGI */
 .section-cards-voglia {
   display: block;
   background-color: var(--homepage-backround-color);
@@ -551,9 +552,9 @@ input:active {
   text-decoration: underline;
   color: #125fca;
 }
-/* fine card vantaggi */
+/* FINE CARD VANTAGGI */
 
-/* inizio footer*/
+/* INIZIO FOOTER*/
 
 .tendina-internazionale,
 .tendina-cucine,
@@ -774,8 +775,9 @@ input:active {
   color: var(--homepage-text-color);
   background-color: var(--homepage-footer-backround-color);
 }
-/* fine footer*/
+/* FINE CARD VANTAGGI */
 
+/* bottone torna su*/
 .torna-su-michele-madrid {
   position: fixed;
   bottom: 0;
@@ -798,7 +800,9 @@ input:active {
   width: 54px;
   cursor: pointer;
 }
+/* fine bottone torna su*/
 
+/* MOBILE*/
 @media (min-width: 320px) and (max-width: 576px) {
   .contenitore-generale-popup {
     border-radius: 0rem;
@@ -1019,7 +1023,7 @@ input:active {
   .container {
     flex-direction: column;
     padding: 0;
-    gap: 1rem;
+    gap: 0rem;
     width: 100%;
   }
 
@@ -1060,7 +1064,7 @@ input:active {
   }
   /* fine footer mobile*/
 }
-
+/* TABLET*/
 @media (min-width: 576px) and (max-width: 768px) {
   .contenitore-generale-popup {
     border-radius: 0rem;
@@ -1280,6 +1284,7 @@ input:active {
     flex-direction: column;
     padding: 0;
     width: 100%;
+    gap: 0rem;
   }
 
   .indice {
@@ -1323,7 +1328,7 @@ input:active {
   }
   /* fine footer tablet*/
 }
-
+/* TABLET GRANDE*/
 @media (min-width: 768px) and (max-width: 992px) {
   .contenitore-generale-popup {
     border-radius: 0rem;
@@ -1477,6 +1482,7 @@ input:active {
     flex-direction: column;
     padding: 0;
     width: 100%;
+    gap: 0rem;
   }
 
   .indice {
@@ -1521,7 +1527,7 @@ input:active {
   }
   /* fine footer tablet*/
 }
-
+/* COMPUTER*/
 @media (min-width: 992px) {
   .linea-divisoria-due,
   .lista-link-utili-mobile {
