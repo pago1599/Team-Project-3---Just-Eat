@@ -245,26 +245,42 @@ document.addEventListener("DOMContentLoaded", function () {
 
   mostraRistoranti("");
 
-  searchInput.addEventListener("input", (event) => {
-    const filtro = event.target.value;
-    mostraRistoranti(filtro);
-  });
-
-  function mostraRistoranti(filtro) {
-    container.innerHTML = "";
-    const risultati = ristoranti.filter((ristorante) =>
-      ristorante.nome.toLowerCase().includes(filtro.toLowerCase())
-    );
-    risultati.forEach((ristorante) => {
-      container.appendChild(creaCard(ristorante));
+  function nascondiSezioneRistorantiZona() {
+    const sezioniRistorantiZona = document.querySelectorAll(".sezione-ristoranti-zona");
+    sezioniRistorantiZona.forEach((sezione) => {
+      sezione.style.display = "none";
     });
   }
 
-  mostraRistoranti("");
+  function mostraSezioneRistorantiZona() {
+    const sezioniRistorantiZona = document.querySelectorAll(
+      ".sezione-ristoranti-zona"
+    );
+    sezioniRistorantiZona.forEach((sezione) => {
+      sezione.style.display = "block";
+    });
+  }
+
+  searchInput.addEventListener("input", (event) => {
+    const filtro = event.target.value;
+    mostraRistoranti(filtro);
+
+    if (filtro.trim() === "") {
+      mostraSezioneRistorantiZona(); // Mostra le sezioni se la casella è vuota (scrivo se no mi dimentico)
+    } else {
+      nascondiSezioneRistorantiZona(); // Nascondi le sezioni se c'è un filtro (scrivo se no mi dimentico)
+    }
+  });
 
   searchInputTablet.addEventListener("input", (event) => {
     const filtro = event.target.value;
     mostraRistoranti(filtro);
+
+    if (filtro.trim() === "") {
+      mostraSezioneRistorantiZona();
+    } else {
+      nascondiSezioneRistorantiZona();
+    }
   });
 });
 
